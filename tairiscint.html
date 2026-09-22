@@ -3,33 +3,44 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tairiscint Mheinhardt — Constitutional Indictment & Framework for Remedy</title>
+<title>Tairiscint Mheinhardt — Constitutional Indictment & Framework for Remedy (v18)</title>
 
 <!-- Open Graph -->
-<meta property="og:title" content="Tairiscint Mheinhardt — Dossier 2006–2026">
+<meta property="og:title" content="Tairiscint Mheinhardt — Dossier 2006–2026 (v18, September 2026)">
 <meta property="og:description" content="Statement of Record on Ireland’s constitutional and governance impasse">
-<meta property="og:image" content="https://dr-crunch.github.io/nullification-loops/og-image-tairiscint.jpg">
-<meta property="og:url" content="https://dr-crunch.github.io/nullification-loops/tairiscint.html">
+<meta property="og:image" content="https://dr-bosch.github.io/nullification-loops/og-image-tairiscint.jpg">
+<meta property="og:url" content="https://dr-bosch.github.io/nullification-loops/tairiscint.html">
 <meta property="og:type" content="website">
 
 <!-- Twitter / X -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Tairiscint Mheinhardt — Dossier 2006–2026">
+<meta name="twitter:title" content="Tairiscint Mheinhardt — Dossier 2006–2026 (v18, September 2026)">
 <meta name="twitter:description" content="Statement of Record on Ireland’s constitutional and governance impasse">
-<meta name="twitter:image" content="https://dr-crunch.github.io/nullification-loops/og-image-tairiscint.jpg">
+<meta name="twitter:image" content="https://dr-bosch.github.io/nullification-loops/og-image-tairiscint.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=EB+Garamond:ital,wght@0,400;1,400&family=Cinzel:wght@400;500;600&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Cinzel:wght@400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="pigeon-moon-yarn.png" sizes="any">
 <style>
   :root {
-    --ink: #1a1510; --ink-light: #3d3328; --ink-faint: #7a6e62;
-    --paper: #f5f0e8; --paper-warm: #ede6d6; --paper-deep: #e0d8c8;
-    --rule: #c8b89a; --accent: #8b1a1a; --gold: #9a7a2a;
-    --gold-bg: #fdf8ee; --accent-bg: #fdf0ee;
-    --ack: #185028; --ack-bg: #edf7f0;
-    --pending: #4a4820; --pending-bg: #f8f7e8;
-    --mono: 'Source Code Pro', monospace;
+    /* ---- Nacre paper-print document layer, v2.50 — shared with FSD-Ontology-2026 ---- */
+    --cloud-dancer: #f5f3ef;   /* substrate · ground */
+    --stretch-limo: #28283a;   /* constant ink */
+    --usquebaugh:   #ffe5d0;   /* warm amber · body field */
+    --aqua-vitae:   #edfff8;   /* cool mint */
+    --willow:       #d5e9db;   /* hushed sage · confirmed/active field */
+    --glaze:        #edffff;   /* ice cyan */
+    --quire:        #fff6ff;   /* ghost lavender · annotation margin */
+    --deckle:       #dbccd7;   /* dusty mauve */
+    --deckle-dim:   #c0acc1;   /* grape-pulled mauve · accent */
+
+    --ink: var(--stretch-limo); --ink-light: #46465a; --ink-faint: rgba(40,40,58,.52);
+    --paper: var(--cloud-dancer); --paper-warm: var(--quire); --paper-deep: var(--deckle);
+    --rule: rgba(40,40,58,.20); --accent: #8d6f8b; --gold: #a8823e;
+    --gold-bg: var(--usquebaugh); --accent-bg: var(--quire);
+    --ack: #3f6b52; --ack-bg: var(--willow);
+    --pending: #8a5f22; --pending-bg: var(--usquebaugh);
+    --mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
     --serif: 'EB Garamond', Georgia, serif;
     --display: 'Cinzel', serif;
   }
@@ -53,6 +64,7 @@
     text-decoration: none;
   }
   .back-nav a:hover { color: var(--accent); }
+  .back-nav-sep { font-family: var(--mono); font-size: 0.62rem; color: var(--rule); margin: 0 0.6rem; }
 
   /* ── MASTHEAD ── */
   .masthead {
@@ -79,7 +91,7 @@
     font-size: 0.62rem;
     letter-spacing: 0.28em;
     text-transform: uppercase;
-    color: rgba(160,120,40,0.8);
+    color: rgba(192,172,193,0.85);
     display: block;
     margin-bottom: 0.8rem;
   }
@@ -114,8 +126,8 @@
     letter-spacing: 0.18em;
     text-transform: uppercase;
     padding: 0.28rem 0.7rem;
-    border: 1px solid rgba(200,68,56,0.45);
-    color: rgba(200,68,56,0.75);
+    border: 1px solid rgba(192,172,193,0.5);
+    color: rgba(192,172,193,0.85);
     background: rgba(154,28,28,0.1);
   }
 
@@ -170,8 +182,16 @@
   p { margin-bottom: 1.1rem; color: var(--ink-light); max-width: 74ch; }
   p:last-child { margin-bottom: 0; }
 
-  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(139,26,26,0.3); }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(141,111,139,0.35); }
   a:hover { border-bottom-color: var(--accent); }
+
+  code {
+    font-family: var(--mono);
+    font-size: 0.85em;
+    color: var(--ink);
+    background: var(--deckle);
+    padding: 0.05em 0.35em;
+  }
 
   /* ── PREAMBLE LEAD ── */
   .preamble {
@@ -210,8 +230,8 @@
     background: var(--paper-warm);
     max-width: 72ch;
   }
-  .callout.red { border-color: rgba(139,26,26,0.35); background: var(--accent-bg); }
-  .callout.gold { border-color: rgba(154,122,42,0.35); background: var(--gold-bg); }
+  .callout.red { border-color: rgba(141,111,139,0.4); background: var(--accent-bg); }
+  .callout.gold { border-color: rgba(168,130,62,0.4); background: var(--gold-bg); }
   .callout-label {
     font-family: var(--mono);
     font-size: 0.6rem;
@@ -332,7 +352,7 @@
     display: block;
     margin: 2rem 0 0.5rem;
     padding-bottom: 0.4rem;
-    border-bottom: 1px solid rgba(139,26,26,0.25);
+    border-bottom: 1px solid rgba(141,111,139,0.3);
   }
   .damages-item {
     padding: 1rem 0;
@@ -399,9 +419,9 @@
     vertical-align: middle;
     margin-top: 0.2rem;
   }
-  .badge-active { background: var(--ack-bg); color: var(--ack); border: 1px solid rgba(24,80,40,0.25); }
-  .badge-prep { background: var(--pending-bg); color: var(--pending); border: 1px solid rgba(74,72,32,0.25); }
-  .badge-silent { background: rgba(139,26,26,0.1); color: var(--accent); border: 1px solid rgba(139,26,26,0.25); }
+  .badge-active { background: var(--ack-bg); color: var(--ack); border: 1px solid rgba(63,107,82,0.3); }
+  .badge-prep { background: var(--pending-bg); color: var(--pending); border: 1px solid rgba(138,95,34,0.3); }
+  .badge-silent { background: rgba(141,111,139,0.14); color: var(--accent); border: 1px solid rgba(141,111,139,0.3); }
   .badge-received { background: var(--paper-deep); color: var(--ink-faint); border: 1px solid var(--rule); }
 
   /* ── LEGAL REPOSITORY LINK CARD ── */
@@ -512,7 +532,7 @@
     flex-wrap: wrap;
   }
   .site-footer a { color: rgba(245,240,232,0.4); border-bottom: none; }
-  .site-footer a:hover { color: rgba(160,120,40,0.9); }
+  .site-footer a:hover { color: rgba(219,204,215,0.95); }
 
   @media (max-width: 700px) {
     .masthead { padding: 2rem 1.2rem; }
@@ -528,12 +548,14 @@
 <!-- BACK NAV -->
 <div class="back-nav">
   <a href="index.html">← Nullification Loops · Statement of Record</a>
+  <span class="back-nav-sep">·</span>
+  <a href="fsd-ontology.html">fsd: Ontology Reference Sheet ↗</a>
 </div>
 
 <!-- MASTHEAD -->
 <header class="masthead">
   <div class="masthead-inner">
-    <span class="masthead-kicker">The Meinhardt Initiative · March 2026</span>
+    <span class="masthead-kicker">The Meinhardt Initiative · Version 18 · September 2026</span>
     <h1>Tairiscint Mheinhardt</h1>
     <div class="masthead-subtitle">Constitutional Indictment, Legal Register, Saisine, and Framework for Remedy</div>
     <div class="masthead-irish">Gabháltas, Gléasanna agus Mí-ionracas: Cliseadh na Córa in Éirinn</div>
@@ -547,8 +569,9 @@
   <!-- PREAMBLE -->
   <div class="preamble">
     <p>This Tairiscint is not addressed to a single grievance. It is addressed to a structural condition. Twenty years of documented engagement with the Irish State —across six departments, multiple Oireachtas bodies, two EU Council terms, and successive ministerial configurations— has produced a record. That record now constitutes the evidentiary basis for a question that no document in this corpus has yet answered with the directness the evidence warrants: is the failure documented here a product of structural dysfunction, of misfeasance in the exercise of public office, or of logic so defective that it has collapsed into self-contradiction?</p>
-    <p>The three possibilities are not mutually exclusive. They are evaluated separately in Part IV, with reference to the specific incidents of the record — including the mutually exclusive OEP positions of 2009 and 2025, the McEntee foreclosure of February 4th, 2026, the deletion of formally received correspondence by the JCEUA, and the simultaneous five-department silence of September 2024. The evaluation is structural. The target is the mechanism, not any individual actor within it.</p>
-    <p>The Irish-language framing is not ornamental. <em>Mífheidhmiú oifige</em> —misfeasance in office— is the precise legal term for what the evidence discloses. <em>Dealraitheachas</em> —governance through the management of appearances— is the precise structural term for what the evidence, on another reading, discloses. <em>Claonbheart</em> —deliberate deviation from official duty— is the precise ethical term for what the evidence, on a third reading, discloses. The three readings are placed on the record. This Signal requires no single reading to prevail. It requires only that the question be determined.</p>
+    <p>The three possibilities are not mutually exclusive. They are evaluated separately in Part IV, with reference to the specific incidents of the record —including the mutually exclusive OEP positions of 2006, 2009, and 2025; the McEntee foreclosure of February 4th, 2026; the deletion of formally received correspondence by the JCEUA; and the simultaneous five-department silence of September 2024. The evaluation is structural. The target is the mechanism, not any individual actor within it.</p>
+    <p>The intellectual framework of this record spans three disciplines. Lewis Mumford's analysis of Paleotechnic governance —institutions locked in mechanical procedures divorced from organic outcomes, measuring progress by procedural motion rather than substantive result— describes the system's form. Francis Bacon's demand for magistral order, accuracy, and clarity in the application of knowledge to public welfare describes the system's stated obligation. Carl Sagan's standard —extraordinary claims require extraordinary evidence— provides the evidentiary discipline: the claims made here are not extraordinary. They are grounded in timestamped institutional acts across twenty years, documented with reference numbers, named officers, and specific dates. The evidence is the record. The record is this Signal.</p>
+    <p>The Irish-language framing is not ornamental. <em>Mífheidhmiú oifige</em> —misfeasance in office: the wrongful exercise of lawful authority— is the precise legal term for what the evidence, on one reading, discloses. <em>Dealraitheachas</em> —governance through the management of appearances— is the precise structural term for what the evidence, on another reading, discloses. <em>Claonbheart</em> —deliberate deviation from official duty— is the precise ethical term for what the evidence, on a third reading, discloses. The three readings are placed on the record. This Signal requires no single reading to prevail. It requires only that the question be determined.</p>
   </div>
 
   <blockquote>
@@ -561,7 +584,7 @@
     <div class="part-title">The Record: Constitutional Contumacy, 2006–2026</div>
   </div>
 
-  <p>The table below does not summarise. It compresses. Each entry is drawn from timestamped documentary evidence (letters, emails, acknowledgement references, internal correspondence, and parliamentary records. All are held in the public repository and forwarded to PETI, the European Ombudsman (Article 228 TFEU), Commissioner McGrath's office, Commissioner Šefčovič's office, and the CJEU registry. The legal or security character assigned to each entry is the characterisation that the documented facts attract when read against the applicable legal framework set out in Part III. The pattern across the full table —acknowledgement without determination, deferral without destination, adequacy claimed without evaluation— is the operative evidentiary whole from which the three irrationality grounds, the mandamus grounds, and the damages claims in Part V are derived.</p>
+  <p>The table below does not summarise. It compresses. Each entry is drawn from timestamped documentary evidence —letters, emails, acknowledgement references, internal correspondence, and parliamentary records— all of which are held in the public repository and have been transmitted to PETI, the European Ombudsman (Article 228 TFEU), Commissioner McGrath's office, Commissioner Šefčovič's office, and the CJEU registry. The legal or security character assigned to each entry is not advocacy. It is the characterisation that the documented facts attract when read against the applicable legal framework set out in Part III. The pattern across the full table —acknowledgement without determination, deferral without destination, adequacy claimed without evaluation— is the operative evidentiary whole from which the three irrationality grounds, the mandamus grounds, and the damages claims in Part V are derived.</p>
 
   <div class="table-wrap">
     <table>
@@ -576,9 +599,21 @@
       <tbody>
         <tr>
           <td>May–Jul. 2006</td>
-          <td>OEP (Mr Spain); DOD; DOT; Taoiseach Ahern (verbal)</td>
-          <td>OR corpus with dual-use characteristics presented to Irish authorities. Taoiseach Ahern acknowledged security implications and verbally committed to follow-up. DOD and DOT assumed custodial responsibility. First OEP remit deflection issued.</td>
-          <td>Competent authority obligation crystallises under EU Reg. 428/2009. State assumes custody of proprietary materials without licence, evaluation, or lawful basis for retention.</td>
+          <td>OEP (Mr Rooney); DOD; DOT; Taoiseach Ahern (verbal)</td>
+          <td>OR corpus with dual-use characteristics presented to Irish authorities. Taoiseach Ahern acknowledged security implications and verbally committed to follow-up. DOD and DOT assumed custodial responsibility. Mr Rooney acknowledged the petitioner may have information of interest to the State, invited submission by email, stalled processing on a credentials condition, and identified no alternative body. State interest conceded, engagement opened, thread terminated without destination.</td>
+          <td>Competent authority obligation crystallises under EU Reg. 428/2009. State assumes custody of proprietary materials without licence, evaluation, or lawful basis for retention. First OEP position: internally contradictory on its own terms —interest acknowledged, engagement opened, outcome nil.</td>
+        </tr>
+        <tr>
+          <td>May 2008</td>
+          <td>Sub-Committee on Ireland's Future in the European Union contacted</td>
+          <td>Material placed before the Sub-Committee on multiple occasions. No acknowledgement received. Historical EU-committee contact predates every subsequent parliamentary engagement by seventeen years.</td>
+          <td>Establishes that the parliamentary channel for EU scrutiny was engaged in 2008. The JCEUA's declination and deletion of correspondence in October 2025 is the culmination of a foreclosure pattern running continuously from May 2008.</td>
+        </tr>
+        <tr>
+          <td>Nov. 18, 2008</td>
+          <td>Acknowledgement from David King, Assistant Private Secretary to Taoiseach Brian Cowen</td>
+          <td>Letter from Elaine Colley/David King, Department of the Taoiseach, acknowledging receipt of email of 14 November 2008: to be brought to the Taoiseach's attention. Commissions on Transport, Development (STI), and Defence named as subject matter. NUI Galway Technology Transfer and Council of State noted.</td>
+          <td>Department of the Taoiseach formally on notice from November 2008. Taoiseach Cowen's office in receipt of the submission. No substantive follow-up recorded. Establishes that the State's apex executive office held knowledge of the corpus two years before the DFA designation period began.</td>
         </tr>
         <tr>
           <td>Feb. 2009</td>
@@ -587,16 +622,40 @@
           <td>First documented Silence Veto. The report was never produced and has never been disclosed. The obligation created in 2009 has compounded through every subsequent office held by the current Taoiseach.</td>
         </tr>
         <tr>
+          <td>May 21, 2009</td>
+          <td>Multi-departmental escalation: Ministers O'Dea (Defence), Dempsey (Transport), Ryan (Energy/DCENR); CC'd to Minister Martin (Foreign Affairs) and Taoiseach's private office</td>
+          <td>Formal email to DFA simultaneously forwarded to three ministerial offices. Demands ministerial review, notes Irish Aid non-response to the February 2009 scientific enquiry, flags FOI and legal options.</td>
+          <td>Three departments and the Taoiseach's office simultaneously on notice. Cross-departmental character of the submission formally established. No ministerial response recorded from any addressee.</td>
+        </tr>
+        <tr>
           <td>Jul. 3, 2009</td>
           <td>Mr Kelliher, OEP</td>
           <td>OR held to fall outside the OEP's coordination remit. No statutory account of inapplicability provided.</td>
-          <td>Second OEP remit deflection. This position is mutually exclusive with the OEP's 2025 position. The McEntee foreclosure relies on the 2025 position without acknowledging the 2009 contradiction.</td>
+          <td>Second OEP position. Mutually exclusive with the OEP's 2025 position. The McEntee foreclosure relies on the 2025 position without acknowledging the 2009 contradiction or the 2006 internal contradiction.</td>
+        </tr>
+        <tr>
+          <td>2009</td>
+          <td>Minister Eamonn Ryan TD — Department of Communications, Energy and Natural Resources</td>
+          <td>O.R. applicability to energy systems governance formally placed before Minister Ryan on repeated occasions. No substantive response followed. No evaluation was conducted. No statutory account of inapplicability was produced.</td>
+          <td>First documented contact with the energy portfolio. Establishes the energy domain thread as running continuously from 2009 through Minister Ryan's non-response, the 2020 all-Oireachtas notification, to the open letter to Minister O'Brien in April 2026. The thread spans seventeen years, two Green Party ministers, and four governments without a single substantive engagement with the energy systems applications of the corpus.</td>
         </tr>
         <tr>
           <td>Aug.–Sep. 2010</td>
           <td>Dr Paul Connors, HSE (Emergency Planning)</td>
           <td>Multiple letters exchanged. 'Operations Research can save lives immediately; this is a turn-key solution.' Office fully briefed. No progression; matter deferred and abandoned.</td>
           <td>Breach of duty of care in emergency planning context. Dr Connors was contacted again in the lead-up to the COVID-19 pandemic. No response.</td>
+        </tr>
+        <tr>
+          <td>Jan. 2011</td>
+          <td>Dual-use implications formally placed before Department of the Taoiseach; France DAS engagement</td>
+          <td>Dual-use implications of the O.R. corpus placed formally on record at the Department of the Taoiseach. The France Délégation aux Affaires Stratégiques (DAS) opened a formal dossier under Director Jean de Ponton d'Amécourt.</td>
+          <td>Dual-use dimension on the State's formal record at the apex executive level. France DAS engagement in 2011 is the precursor to the current DGRIS correspondence. The DAS's engagement constitutes institutional memory of the corpus at the French strategic level.</td>
+        </tr>
+        <tr>
+          <td>Mar. 9, 2011</td>
+          <td>Martin tenure ends at Foreign Affairs; Gilmore appointed; department reconfigured as Foreign Affairs and Trade</td>
+          <td>Minister Gilmore had been contacted on ten occasions before appointment. The addition of the Trade remit to a department already carrying an unperformed dual-use competency obligation was not flagged as requiring review of that obligation.</td>
+          <td>First structural escape: CA vacancy transferred unremarked into an expanded portfolio. The addition of 'Trade' to the ministerial title directly engaged the commercial dimension of dual-use assessment without any audit of the unperformed obligation. Structurally identical to the 2024 DFA→DETE transfer.</td>
         </tr>
         <tr>
           <td>Mar.–Apr. 2020</td>
@@ -617,22 +676,34 @@
           <td>This is the last date on which substantive multi-ministerial engagement was possible before the formal complaint.</td>
         </tr>
         <tr>
+          <td>Aug. 22, 2024</td>
+          <td>DFA→DETE Transfer: Control of Exports Act 2023 commences</td>
+          <td>CA designation transferred to DETE. The Tánaiste held both Foreign Affairs and Defence portfolios at the moment of transfer. He did not progress the outstanding obligation, did not refer the unprocessed record to DETE, and issued no ministerial determination. The transfer occurred without audit of the accumulated obligation, without disclosure of the unprocessed record to DETE, and without any mechanism requiring DETE to assess material held by the DFA.</td>
+          <td>Transfer-without-discharge confirmed. The accumulated obligation was not extinguished by the transfer —it was structurally abandoned. Accountability clock reset to zero while underlying obligation remained at year eighteen. The CA function is now fragmented across three institutions —DETE (licensing), DFA (regime memberships), DoD (security assessment)— with no statutory coordination mechanism between them.</td>
+        </tr>
+        <tr>
           <td>Jan. 24, 2025 (Storm Éowyn)</td>
           <td>OEP — Mr McMoreland</td>
           <td>Writing from inside the emergency: 'We are a little swamped at the minute with the severe weather response.' Technology designed to prevent precisely this class of failure had been in DFA custody, unprocessed, since 2006.</td>
           <td>Operational failure and the statutory non-determination are timestamped together in the same email thread.</td>
         </tr>
         <tr>
+          <td>2024–present</td>
+          <td>Defence Technology Cluster Ireland (DTCI) established</td>
+          <td>DTCI established as a national coordination platform for civilian protection, critical infrastructure resilience, and emergency-response innovation —the precise domain the O.R. submissions of 2006 addressed. No public record connects the DTCI's establishment to the nineteen-year unprocessed record.</td>
+          <td>Two possibilities, both belonging in the Commission's evaluation record. If the DTCI was constituted without knowledge of the record: the Nullification Loop produced a policy instrument that reinvents, at public expense, a capability in institutional custody since 2006. If constituted with knowledge: the question of why the record was not surfaced within the DTCI's formation is a different and sharper one.</td>
+        </tr>
+        <tr>
           <td>Jun. 1, 2025</td>
           <td>OEP — Mr McMoreland (Adequacy Conclusion)</td>
           <td>OR methodologies declared 'already in use across many sectors.' OEP claimed a 'good understanding of the methods involved, such as Stochastic Programming.' Formally contested by rebuttal of June 3rd, 2025. Never answered.</td>
-          <td>Internally incoherent against the Storm Éowyn record. Position is mutually exclusive with the OEP's 2009 position.</td>
+          <td>Third OEP position. Internally incoherent against the Storm Éowyn record. Mutually exclusive with the OEP's 2009 position. Mutually contradictory, in a different register, with the 2006 position. The McEntee foreclosure relies on the 2025 position without acknowledging any of the three contradictions.</td>
         </tr>
         <tr>
           <td>Feb. 4, 2026</td>
           <td>McEntee Foreclosure — DOD-MO-01201-2025</td>
-          <td>Minister for Defence's private secretary cites the OEP's June 1st, 2025 letter as dispositive and closes the file. No reference to the June 3rd rebuttal, Storm Éowyn, the DFA's competent authority obligation, or the 226-page formal complaint.</td>
-          <td>Reviewable determination under Order 84 RSC on three independent irrationality grounds.</td>
+          <td>Minister for Defence's private secretary cites the OEP's June 1st, 2025 letter as dispositive and closes the file. No reference to: the June 3rd rebuttal; Storm Éowyn; the DFA's competent authority obligation; the 226-page formal complaint; the DoD's absence of CA designation at any material time.</td>
+          <td>Reviewable determination under Order 84 RSC on three independent irrationality grounds plus the Foreclosure-by-Proxy ground: the Department of Defence held no CA designation under Regulation 2021/821 at any material time. A determination it issues on the substance of a dual-use submission has no regulatory standing under the Regulation.</td>
         </tr>
         <tr>
           <td>Mar. 12, 2026</td>
@@ -640,16 +711,96 @@
           <td>Formal submission of March 11th refused without committee vote, without citing a Standing Order, without statutory basis.</td>
           <td>Secretariat exercised power belonging to the Committee. Ultra vires. Seventh instance of acknowledgement-as-closure across all parliamentary channels.</td>
         </tr>
+        <tr>
+          <td>Apr. 7, 2026</td>
+          <td>Open Letter to Minister Darragh O'Brien TD — Minister for Climate, Energy and the Environment; Minister for Transport</td>
+          <td>Open letter placing four direct questions before the Department during simultaneous live crises —a nationwide haulier and fuel-price blockade and an energy grid stress event. EirGrid's operational performance has never been benchmarked against the proprietary O.R. corpus submitted to this State in 2006. No current efficiency claim for Irish grid management is therefore authoritative.</td>
+          <td>Dual-portfolio structural convergence: the minister simultaneously responsible for energy grid governance and freight network efficiency holds both domains to which the O.R. corpus applies during operational crises in both. No response documented.</td>
+        </tr>
+        <tr>
+          <td>May 27, 2026</td>
+          <td>Council Saisine to Secretary General Blanchet; COMPET Notice to outgoing Presidency Chair (Cyprus)</td>
+          <td>Formal saisine addressed to Secretary General of the Council of the EU, Thérèse Blanchet, transmitting the full compliance record and identifying the structural CA vacancy as a live item for the Article 26 evaluation opening in September 2026. Simultaneous COMPET Notice transmitted to the outgoing Presidency Chair —Cyprus, then holding the rotating COMPET chair— identifying Ireland's domestic CA fragmentation as an agenda-relevant compliance fact ahead of the Presidency transition. Both acts predate Ireland's assumption of the Council Presidency by 35 days.</td>
+          <td>Pre-Presidency placement on the Council institutional record. Ireland cannot subsequently characterise the record as arising during its own Presidency or as having been unknown to the Council apparatus at the moment it assumed the chair. The Presidency Paradox is not a post-hoc observation. It is a documented structural conflict of interest formally notified to the Council before it became operative.</td>
+        </tr>
+        <tr>
+          <td>Jul. 22, 2026</td>
+          <td>Qualifying Submissions (Duty to Determine) Bill 2026 pre-published — Seanad Éireann (SSCEUST-I-2026-074)</td>
+          <td>The Bill encoding the legislative architecture for closing the Nullification Loop is pre-published and placed before the Seanad. Its operative provisions —the loop closure mechanism, the prohibition on sufficiency assertions, the mandatory Ombudsman backstop under §10C, the chain-of-duty principle under §8C— each address a specific structural feature of the twenty-year non-determination documented in this record.</td>
+          <td>The Bill is downstream of this record, not coordinate with it. Its pre-publication is recorded here as a governance milestone: the Nullification Loop's twenty-year operation has produced a legislative instrument designed to make that operation unlawful going forward.</td>
+        </tr>
+        <tr>
+          <td>Sep. 10, 2026</td>
+          <td>Commission evaluation of Regulation (EU) 2021/821 opens</td>
+          <td>The mandatory evaluation of Ireland's competent authority architecture commences. Ireland holds the EU Council Presidency and chairs proceedings on dual-use technology controls. The three-institution CA fragmentation —DETE, DFA, DoD— with no statutory coordination mechanism is an open compliance item entering the evaluation record.</td>
+          <td>Presidency Paradox operative: Ireland chairs proceedings in the domain in which its own compliance failure is documented. The DETE letter of September 10th, 2026 (DETE-MBURK-01636-2026) places the twenty-year non-determination on the ministerial and evaluation record on the day the evaluation opens.</td>
+        </tr>
       </tbody>
     </table>
   </div>
 
-  <p>Senator Michael McDowell observed at the Committee's sitting of March 3rd, 2026 that the Cabinet procedure requiring Ministers to warn each other of cross-departmental implications 'is not replicated in the Oireachtas between the various committees.' This Remonstrance is the notification that procedure was designed to produce. It has been placed before seven bodies across the record. None has transmitted it to a body that would examine it on the merits.</p>
+  <p>Senator Michael McDowell observed at the Committee's sitting of March 3rd, 2026 that the Cabinet procedure requiring Ministers to warn each other of cross-departmental implications 'is not replicated in the Oireachtas between the various committees.' This Remonstrance is the notification that procedure was designed to produce. It has been placed before seven Oireachtas bodies across the record —none of which has transmitted it to a body that would examine it on the merits.</p>
 
   <div class="callout red">
     <span class="callout-label">The Martin Foreknowledge Timeline</span>
     <p>Taoiseach Micheál Martin received the Irish Aid presentation in February 2009 and committed personally to a ministerial report. He gave a verbal commitment on September 25th, 2009, at the petitioner's residence in Ballyphehane, Cork, to review the dual-use goods matter and follow up. He held the obligation through Minister for Foreign Affairs, Taoiseach, Tánaiste, and Taoiseach again. The unperformed ministerial act is his. The period from the 2009 commitment to the present is approximately seventeen and a half years.</p>
   </div>
+
+  <!-- PART I(A) — NEW IN v18 -->
+  <div class="part-header">
+    <span class="part-label">Part I(A)</span>
+    <div class="part-title">The Interregnum Nullificans: What It Is and What It Shows</div>
+  </div>
+
+  <p>This section is the alignment bridge between the Tairiscint Mheinhardt and its companion document, the <em>Interregnum Nullificans</em> (IN, currently at version 16, September 10th, 2026). The IN is the statement of record: a timestamped, institutionally addressed account of each discrete breach in the governance sequence from May 2006 to the present. The Tairiscint is the legal instrument: the constitutional indictment, charter framework, and remedy architecture that the record supports. Neither document is subordinate to the other. They are designed to be read in parallel, and this section is the key that makes that parallel reading possible.</p>
+
+  <p>The Ombudsman complaint (OMB-260331-CSD014) and all European parallel filings reference both documents. Any institution receiving one should be treated as having received the other.</p>
+
+  <h3>What the Interregnum Nullificans Is</h3>
+  <p>The IN is a statement of record, not a submission of argument. Its function is evidentiary: to establish, with timestamps, reference numbers, named officers, and specific dates, that a sequence of institutional acts occurred and that their aggregate constitutes a continuous, unresolved breach of statutory duty.</p>
+  <p>The title names the condition precisely. <em>Interregnum</em> —an interval between authorities during which normal governance is suspended. <em>Nullificans</em> —nullifying, voiding, reducing to nothing. The Interregnum Nullificans is the period —running from May 2006 to the present— during which the normal function of governance, the production of a reasoned determination on a formal submission, was suspended across every institutional authority simultaneously engaged. The suspension was not declared. It was produced, systematically and without interruption, by the mechanism Part II of this Tairiscint documents.</p>
+  <p>The IN does not allege that any individual officer acted in bad faith. It records what happened: which officer, at which institution, on which date, produced which response —and what that response's legal character is when read against the applicable framework. The legal characterisation is in the Tairiscint. The factual record is in the IN. The two documents are the same case stated in two registers.</p>
+  <p>The IN v16 Summary Statement places the operative condition on record in its most compressed form: the breach of fiduciary duty is widespread; the ethical breach is clear; the security breaches are manifold; the duty to reason is repeatedly neglected; the impasse is manifest, active, and compounding; the duty of care is undischarged. It has been handed from minister to minister, from government to government, without a single statutory determination being issued —while material directly relevant to national security has been ignored at every level of the executive and legislature simultaneously.</p>
+
+  <h3>The Three-Phase Authority Vacancy</h3>
+  <p>The IN's central structural finding —refined across sixteen versions, incorporating the competent authority transfer of August 22nd, 2024— is that the governance failure did not occur within a single institutional configuration. It occurred across three successive configurations of authority, each producing the same output: no determination.</p>
+
+  <div class="hypothesis-list">
+    <div class="hypothesis">
+      <div class="hypothesis-label">A</div>
+      <div class="hypothesis-body">
+        <div class="hypothesis-title">The Consultation Vacancy (2000–2008)</div>
+        <p>Before the Control of Exports Act 2008, Ireland operated a dual structure: DETE held operational licensing authority, while the DFA held mandatory consultation authority on sensitive dual-use applications, confirmed by the Forfás Report of 2004. The first OR submission arrived in May 2006, squarely within this structure. The mandatory DFA consultation pathway was not activated. No consultation outcome was produced. No referral was made. The governance architecture existed and was not used.</p>
+      </div>
+    </div>
+    <div class="hypothesis">
+      <div class="hypothesis-label">B</div>
+      <div class="hypothesis-body">
+        <div class="hypothesis-title">The Determination Vacancy (2008–2024)</div>
+        <p>With the Control of Exports Act 2008 and the implementation of EU Regulation 428/2009 —subsequently recast as Regulation 2021/821— the DFA held formal competent authority designation, confirmed by the Oireachtas debate of January 19th, 2022. Across the full sixteen years of that designation, zero evaluations were produced and zero statutory determinations issued. The determination vacancy persisted through five governments and six Taoisigh without change of output.</p>
+      </div>
+    </div>
+    <div class="hypothesis">
+      <div class="hypothesis-label">C</div>
+      <div class="hypothesis-body">
+        <div class="hypothesis-title">The Custodial Vacancy (Aug. 22nd, 2024–present)</div>
+        <p>The Control of Exports Act 2023 transferred the CA designation to DETE on August 22nd, 2024. The transfer was procedurally valid. It was not accompanied by any audit of the accumulated unresolved record, any disclosure of the pre-transfer submissions to DETE, or any mechanism requiring DETE to assess material held, unprocessed, by its predecessor. Either the historical record was not disclosed to DETE —in which case the DFA committed a custodial breach and retains the outstanding obligation— or it was disclosed and DETE inherited a twenty-year backlog for which no evaluation plan has been produced. Either condition perpetuates the Interregnum Nullificans under a new authority.</p>
+      </div>
+    </div>
+  </div>
+
+  <p>The three phases are not discrete failures. They are successive expressions of a single continuous omission. A change in the identity or structure of the competent authority does not extinguish obligations arising under prior configurations. The obligation is invariant across all three phases. That invariance is the Interregnum Nullificans.</p>
+
+  <h3>The Post-Transfer Architecture and Its Compliance Consequence</h3>
+  <p>The transfer did not produce a unified competent authority. It produced a CA function fragmented across three institutions: DETE (licensing and designation), DFA (Wassenaar Arrangement, NSG, MTCR, and Australia Group regime memberships), and the Department of Defence (security assessment architecture and OEP oversight). No statutory mechanism requires any of the three to consult the others before a determination is made.</p>
+  <p>The function Regulation 2021/821 requires —an integrated assessment with simultaneous access to the commercial export dimension and the security application dimension— is architecturally impossible within the current Irish structure. This is the IN v16's operative phrase and it is adopted here without qualification. The Commission's January 2024 White Paper on Export Controls (COM(2024) 25) identified the absence of coordinated political oversight and the failure to integrate licensing, regime-membership, and security assessment as primary EU-wide compliance failures. Ireland's post-transfer architecture simultaneously embodies all three. This is a structural compliance failure —not a procedural concern— that entered the Commission's mandatory evaluation of Regulation 2021/821 on September 10th, 2026 as an open item.</p>
+  <p>The COMPET-track choke-points through which this record enters the evaluation are identified in the IN v16 Annex: the Council Working Party Chair, the Irish national delegate, COREPER II, the EP Rapporteur, and the DG TRADE/DG DEFIS desk officer responsible for the Article 26 evaluation. Primary material has been placed at each of these points. The evaluation proceeds on the Member State compliance record as filed, insulated from domestic administrative filtering.</p>
+
+  <h3>The OEP Contradiction as the Loop's Proof</h3>
+  <p>The OEP's engagement with the corpus across twenty years provides the clearest single demonstration of the Nullification Loop's invariant output. Three positions, none reconciled. In May 2006, Mr Rooney acknowledged State interest, invited submission, and terminated the thread without destination. In July 2009, Mr Kelliher declined on remit grounds. In June 2025 —five months after Storm Éowyn, during which the OEP was operationally overwhelmed— Mr McMoreland issued a substantive adequacy conclusion without reconciling either prior position and without evaluating the corpus. The McEntee Foreclosure selected the 2025 position as dispositive without acknowledging any of the three contradictions. The OEP sequence is not an anomaly within the Loop. It is the Loop's proof.</p>
+
+  <h3>How to Read the Two Documents Together</h3>
+  <p>The IN establishes the factual record: what happened, when, who was involved, and what legal or security character the documented act attracts. The Tairiscint builds the legal analysis on that foundation. An institution that has read both holds the complete case: the facts that establish the breach, and the law that establishes the remedy. The public repository at dr-bosch.github.io/nullification-loops carries both documents, versioned and indexed in fourteen EU languages. Updated versions supersede earlier ones in the Ombudsman complaint record without requiring a fresh submission.</p>
 
   <!-- PART II -->
   <div class="part-header">
@@ -658,19 +809,38 @@
   </div>
 
   <h3>The Nullification Loop</h3>
-  <p>The Nullification Loop is not a metaphor. It is the name for a closed five-stage administrative system whose output is structurally invariant: acknowledgement-without-determination, regardless of the personnel operating at any given stage. The five stages are: (1) Acknowledgement — receipt confirmed, institutional engagement performed, no decision pathway initiated; (2) Deferral without destination — the matter referred elsewhere, no body accepting final responsibility; (3) Remit displacement — simultaneous deflection by multiple institutions, each holding that the matter falls within another body's domain, collectively producing Jurisdictional Evaporation; (4) Sufficiency assertion — a claim that existing awareness or practice is adequate, without evaluation of the specific submitted corpus; and (5) Record suppression or reset — the accumulated record either formally deleted (JCEUA, October 2025) or administratively treated as a first encounter.</p>
-  <p>The diagnostic significance of the Loop lies in its personnel-independence. It has operated through six Taoisigh, multiple Tánaistí, four governments, and successive institutional restructurings. The output has not changed. It shifts the analysis from misfeasance to architectural liability, from individual accountability to systemic reviewability.</p>
+  <p>The Nullification Loop is not a metaphor. It is the name for a closed five-stage administrative system whose output is structurally invariant: acknowledgement-without-determination, regardless of the personnel operating at any given stage. The five stages are: (1) Acknowledgement — receipt confirmed, institutional engagement performed, no decision pathway initiated; (2) Deferral without destination — the matter referred elsewhere, no body accepting final responsibility; (3) Remit displacement — simultaneous deflection by multiple institutions, each holding that the matter falls within another body's domain, collectively producing Jurisdictional Evaporation; (4) Sufficiency assertion — a claim that existing awareness or practice is adequate, without evaluation of the specific submitted corpus; and (5) Record suppression or reset — the accumulated record either formally deleted (JCEUA, October 2025) or administratively treated as a first encounter (OEP, June 2025: 'thank you for raising awareness').</p>
+  <p>The diagnostic significance of the Loop lies in its personnel-independence. It has operated through six Taoisigh, multiple Tánaistí, four governments, and successive institutional restructurings. The output has not changed. Where individual administrative failure can be attributed to a particular officer's conduct, the Loop cannot be —and that distinction is legally material. It shifts the analysis from misfeasance to architectural liability, from individual accountability to systemic reviewability, and from the question of what any officer did to the question of what the design compelled.</p>
 
   <h3>The Hoop-Trick: Jurisdictional Alibi Through Structural Interlock</h3>
-  <p>Article 15.1 of <em>Bunreacht na hÉireann</em> vests legislative power exclusively in the Oireachtas. Article 28 vests executive power in the Government and holds it collectively accountable to the Dáil. The hoop-trick is the mechanism by which that vertical flow is broken: two offices, each formally bound by constitutional duty, are configured so that each can plausibly characterise the matter as falling within the other's jurisdiction. The Taoiseach and Tánaiste remits — revolving, switching, each carrying Article 15 and Article 28 obligations — appear interlocked until accountability pressure is applied. Under pressure, they separate cleanly. Neither office defaults. Both do. The constitutional architecture becomes the instrument of its own circumvention.</p>
-  <p>The OEP held OR outside its remit in 2009; held OR within its domain in 2025 — both positions disposing of the matter without evaluation, in the same direction. The DFA carries the competent authority obligation under EU Regulation 2021/821 but is operationally inaccessible through any standard public channel. The DOD issues a foreclosure citing the DFA's adequacy without examining whether the DFA has discharged the underlying obligation. Each institution is, locally, formally compliant. The aggregate is a complete absence of accountability. This is Evasocracy in constitutional form.</p>
+  <p>Article 15.1 of <em>Bunreacht na hÉireann</em> vests legislative power exclusively in the Oireachtas. Article 28 vests executive power in the Government and holds it collectively accountable to the Dáil. These provisions presuppose a constitutional architecture in which accountability flows vertically from act to officer to institution to legislature. The hoop-trick is the mechanism by which that vertical flow is broken: two offices, each formally bound by constitutional duty, are configured so that each can plausibly characterise the matter as falling within the other's jurisdiction. The Taoiseach and Tánaiste remits — revolving, switching, each carrying Article 15 and Article 28 obligations — appear interlocked until accountability pressure is applied. Under pressure, they separate cleanly. Neither office defaults. Both do. The constitutional architecture becomes the instrument of its own circumvention.</p>
+  <p>The same mechanism operates at every level of the record. The OEP held OR outside its remit in 2009; held OR within its domain in 2025 — both positions disposing of the matter without evaluation, in the same direction. The DFA carried the competent authority obligation under EU Regulation 2021/821 for sixteen years without a single determination; when the designation transferred to DETE on August 22nd, 2024, the DFA retained Ireland's international regime memberships without retaining the CA function — and without discharging the accumulated obligation. DETE now holds the designation without institutional memory of the unprocessed record. The DOD issues a foreclosure citing the DFA's adequacy conclusion without examining whether the DFA discharged the underlying obligation — and without reference to the fact that the DOD held no CA designation at any material time. Each institution is, locally, formally compliant. The aggregate is a complete absence of accountability. This is not an oversight. It is the mechanism of Evasocracy in constitutional form, now distributed across three departments with no coordination requirement between them.</p>
+
+  <h3>Burke–Byrne Interference: Two Ministers, One Obligation, No Coordination Mechanism</h3>
+  <p>The Burke–Byrne interference is the structural expression of this problem at ministerial level. Minister Burke (Enterprise, Trade and Employment) holds the CA designation under Regulation 2021/821 and the Article 26 statistical reporting obligation to the Commission. Minister of State Byrne holds European Affairs and Defence across three departments simultaneously — the Department of the Taoiseach, the DFA (which retains the Wassenaar Arrangement, NSG, MTCR, and Australia Group regime memberships), and the Department of Defence (security assessment architecture and OEP oversight). Both ministers bear some version of responsibility for the same statutory obligation. Neither holds the full institutional span to discharge it. Burke's department has no access to the regime-membership framework CA assessments require. Byrne's remit covers the memberships and security architecture but not the licensing body. An integrated assessment requires a coordinated act between them. No coordination is required by statute. None has occurred. Byrne's three-department remit does not bridge the fragmentation — it personifies it.</p>
+
+  <h3>The Autopoietic Loop: Why Domestic Remedies Are Structurally Insufficient</h3>
+  <p>The theoretical framework for understanding why this condition is self-sustaining is Niklas Luhmann's account of autopoietic systems: legal and administrative systems reproduce themselves by processing communications in forms their own architecture can handle, without necessary reference to the substantive condition the input describes. Each domestic oversight body processes the submission according to its own code — jurisdiction, standing, time limits, admissibility. A technicality is sufficient. The system produces a determination that is internally valid. The substantive question remains outside every system's operational boundary. The result is a nullification loop that is self-sustaining, personnel-independent, and formally valid at every stage — and has operated through six Taoisigh and four governments without change of output. The Commission's evaluation of Regulation 2021/821 operates from outside this boundary. It receives the Member State compliance record as an environmental fact, not a communication subject to domestic procedural filtering. This is the structural property that makes the Commission evaluation a qualitatively different kind of forum than any domestic mechanism previously engaged.</p>
+
+  <div class="callout red">
+    <span class="callout-label">Martin Is the Institution</span>
+    <p>Taoiseach Micheál Martin is not simply one of many silent ministers. His office issued a commitment in February 2009. On September 25th, 2009, as the petitioner's constituency TD and as Minister for Foreign Affairs, he gave a clear verbal commitment to review the material at a meeting at the petitioner's residence in Ballyphehane, Cork. His continuous foreknowledge is established across every office he has subsequently held: as Minister for Foreign Affairs (2008–2011), including the Irish Aid commitment that was never produced; as Taoiseach (2020–2022), when auto-replies were issued to formal notification of all 220 Oireachtas members; as Tánaiste (2022–2025), when the CA transfer occurred while the matter was formally on his desk; and in his current second tenure as Taoiseach, during which the obligation created in 2009 now sits before him as head of government, unacknowledged, undischarged, and not formally declined. The period from the 2009 commitment to the present is approximately seventeen and a half years. He is not merely a recipient of correspondence. He is the institution. The unperformed ministerial act is his.</p>
+  </div>
 
   <h3>Administrative Amnesia and Designed Forgetting</h3>
-  <p>The OEP's June 2025 letter thanks the correspondence for 'raising awareness' on Operations Research — as if Mr Brian Spain had not been contacted in 2006, as if Mr Kelliher had not declined in 2009, as if all 220 Oireachtas members had not been formally notified in 2020. This is not forgetting. It is the structural reproduction of ignorance: each reset enables a fresh cycle of superficial review and closure without engaging the accumulated record.</p>
-  <p>The JCEUA's deletion of formally received correspondence in October 2025 does not merely reproduce ignorance — it destroys the record itself. Deletion of formally lodged correspondence following declination, without transmission to a competent body, without any procedural pathway offered, is a violation of Article 41 CFR on its face.</p>
+  <p>Administrative Amnesia is the Loop's production of institutional forgetfulness. Each new officer encounters the record as if for the first time. The OEP's June 2025 letter thanks the correspondence for 'raising awareness' on Operations Research — as if Mr Rooney had not been contacted in 2006, as if Mr Kelliher had not declined in 2009, as if all 220 Oireachtas members had not been formally notified in 2020. This is not forgetting. It is the structural reproduction of ignorance: each reset enables a fresh cycle of superficial review and closure without engaging the accumulated record.</p>
+  <p>Where Designed Forgetting is more acute — the JCEUA's deletion of formally received correspondence in October 2025 — it does not merely reproduce ignorance but destroys the record itself. Deletion of formally lodged correspondence following declination, without transmission to a competent body, without any procedural pathway offered, is not an administrative irregularity. It is a violation of Article 41 CFR on its face.</p>
 
   <h3>The Logical Contradiction at the Centre of the Record</h3>
-  <p>The OEP maintained two mutually exclusive positions across a sixteen-year interval. Mr Kelliher's letter of July 3rd, 2009: OR 'does not fall within the coordination remit of the Office of Emergency Planning.' Mr McMoreland's letter of June 1st, 2025: OR methodologies are 'already in use across many sectors in disaster risk management in Ireland.' These positions cannot both be true. If OR falls outside the OEP's remit, the 2025 adequacy conclusion is beyond its competence to issue. If OR falls within the OEP's domain, the 2009 declination was a remit error of sixteen years' standing that was never corrected, never acknowledged, and never remedied. The McEntee foreclosure selects the 2025 position as dispositive — without acknowledging the 2009 contradiction, without acknowledging the formal rebuttal of June 3rd, 2025, and without acknowledging that Storm Éowyn had operationally falsified the adequacy conclusion five months before it was issued.</p>
+  <p>The OEP maintained three positions across a nineteen-year interval, each deployed as a ground for non-evaluation of the submitted corpus, none of them reconciled. Mr Rooney's engagement of May 2006: State interest acknowledged, submission invited, processing stalled on a credentials condition, thread terminated without destination or referral. Mr Kelliher's letter of July 3rd, 2009: OR 'does not fall within the coordination remit of the Office of Emergency Planning.' Mr McMoreland's letter of June 1st, 2025: OR methodologies are 'already in use across many sectors in disaster risk management in Ireland.'</p>
+  <p>The 2009 and 2025 positions are mutually exclusive on their face. If OR falls outside the OEP's remit, the 2025 adequacy conclusion is beyond its competence to issue. If OR falls within the OEP's domain and has done so since 2009, the 2009 declination was a remit error of sixteen years' standing that was never corrected, never acknowledged, and never remedied. The 2006 position is contradictory on its own terms: interest conceded, engagement opened, outcome nil. The McEntee foreclosure of February 4th, 2026 selects the 2025 position as dispositive — without acknowledging any of the three contradictions, without acknowledging the formal rebuttal of June 3rd, 2025, and without acknowledging that Storm Éowyn had operationally falsified the adequacy conclusion five months before it was issued.</p>
+  <p>There is a fourth ground of invalidity in the McEntee Foreclosure that the three-contradiction analysis does not exhaust: the Department of Defence held no competent authority designation under Regulation 2021/821 at any material time. A determination issued by a body with no CA standing has no regulatory validity under the Regulation. DOD-MO-01201-2025 does not discharge DETE's obligation. It does not discharge the DFA's historical obligation. It is, in the language of the developing record, a Foreclosure-by-Proxy: an act that produces the appearance of closure without the legal authority to produce its substance.</p>
+  <p>Under <em>O'Keeffe v An Bord Pleanála</em> [1993] 1 IR 39, a decision is irrational where no reasonable decision-maker, properly directing themselves in law, could have arrived at it. The McEntee Foreclosure satisfies this test on three independent grounds simultaneously, and on the Foreclosure-by-Proxy ground independently. Under <em>Meadows v Minister for Justice</em> [2010] 2 IR 701, a public body that relies as dispositive on conclusions formally challenged and never defended has not provided adequate reasons. The foreclosure satisfies this test also. Both irrationality and inadequacy of reasons are, individually, sufficient grounds for certiorari. All four grounds are present.</p>
+
+  <h3>The Qualifying Submissions (Duty to Determine) Bill 2026</h3>
+  <p>The Nullification Loop's sustained operation across twenty years has exposed an architectural gap in Irish administrative law: no enforceable mechanism currently exists requiring any public body to produce a reasoned, attributable, reviewable determination on a qualifying submission when every available domestic channel has produced only procedurally valid non-determination.</p>
+  <p>The Qualifying Submissions (Duty to Determine) Bill 2026 is the legislative architecture designed to close that gap. It is pre-published and before Seanad Éireann under reference SSCEUST-I-2026-074. Its operative provisions — the loop closure mechanism, the prohibition on sufficiency assertions, the mandatory Ombudsman backstop, the chain-of-duty principle preventing compliance clock resets on transfer of designation — each address a structural feature of the Nullification Loop documented in this Tairiscint. The Bill does not require any public body to accept or adopt the submitted corpus. It removes only the option of producing no determination at all.</p>
+  <p>The Bill is downstream of this record. It does not alter the remedies available under this Tairiscint. It represents the systemic correction that the record's twenty-year pattern has made necessary.</p>
 
   <!-- PART III -->
   <div class="part-header">
@@ -679,24 +849,27 @@
   </div>
 
   <h3>EU Primary Law</h3>
-  <p>EU Regulation 2021/821 establishes binding obligations on member states to maintain effective regulatory frameworks for dual-use items. The designation does not exhaust the obligation: the competent authority must function. Where a dual-use submission is presented to a designated competent authority and no evaluation is conducted, no determination issued, and no statutory account of inapplicability produced across twenty years, the competent authority designation is a formality behind which the substantive obligation has been systematically extinguished. The DFA is that designated authority. The corpus was presented in November 2006. The zero-determination record is four transposition cycles old.</p>
-  <p>Article 41 CFR guarantees a right to good administration: impartial and fair handling within a reasonable time; the right to be heard before any individual adverse measure is taken; the right of access to one's file; and the obligation to give reasons for decisions. Each of these four guarantees is independently violated on the face of the record. Article 47 CFR — the right to an effective remedy — is engaged where every domestic channel has been foreclosed. Article 2 TEU encodes the Rule of Law as a foundational value of the Union. Article 4(3) TEU binds every organ of the Member State — executive, legislative, and parliamentary — to sincere cooperation.</p>
+  <p>EU Regulation 2021/821 — the recast of Regulation 428/2009, operative from September 9th, 2021 — establishes a Union regime for the control of exports, transfer, brokering, and transit of dual-use items. Article 2(1) imposes on each Member State the obligation to designate one or more competent authorities. The designation does not exhaust the obligation: the competent authority must function.</p>
+  <p>The DFA held that designation from 2009 until August 22nd, 2024, when the Control of Exports Act 2023 commenced and transferred the designation to DETE. The corpus was presented in November 2006. The zero-determination record under the DFA is four transposition cycles old. The transfer to DETE did not resolve it: it occurred without audit of the accumulated obligation, without discharge of the unperformed duty, and without any mechanism requiring DETE to assess material held by the DFA. DETE received the designation without institutional memory of the unprocessed record. The accumulated obligation was not transferred with the designation. It was structurally abandoned.</p>
+  <p>Critically, the DFA's involvement in the dual-use governance architecture predates its formal CA designation. From 2000 to 2008, the DFA held mandatory consultation authority on sensitive dual-use applications under the Control of Exports Order 2000 — confirmed by the Forfás Report of 2004. The first submission arrived in 2006, within this consultation phase. The mandatory consultation pathway was not activated. The total span of DFA structural involvement in dual-use governance in which the OR corpus went unevaluated is therefore not sixteen years but twenty — from first submission in 2006 to the present.</p>
+  <p>The post-transfer architecture compounds the problem: the CA function is now distributed across three institutions — DETE (licensing), DFA (international regime memberships), and the Department of Defence (security assessment architecture) — with no statutory coordination mechanism between them. The integrated assessment that Regulation 2021/821 requires is architecturally impossible within this structure. The Commission's mandatory evaluation opened September 10th, 2026. The transfer-without-discharge, the institutional memory gap, and the three-institution fragmentation each enter that evaluation as open compliance items.</p>
+  <p>Article 41 of the Charter of Fundamental Rights guarantees the right to good administration: impartial and fair handling within a reasonable time; the right to be heard before any individual adverse measure is taken; the right of access to one's file; and the obligation of the administration to give reasons for its decisions. Each of these four guarantees is independently violated on the face of the record. Twenty years is not a failure to meet a 'reasonable time' standard: it is the structural elimination of the determination function itself. The JCEUA's deletion of formally lodged correspondence in October 2025 is a direct violation of the right of access to file. Article 47 CFR — the right to an effective remedy — is engaged where every domestic channel has been foreclosed by the mechanism documented in Part II. Article 2 TEU encodes the Rule of Law as a foundational value of the Union. Article 4(3) TEU binds every organ of the Member State — executive, legislative, and parliamentary — to the obligation of sincere cooperation.</p>
 
   <h3>Irish Constitutional and Statutory Law</h3>
-  <p>Article 40.3.1 of <em>Bunreacht na hÉireann</em> imposes a positive obligation of active vindication. As Walsh J. confirmed in <em>McGee v Attorney General</em> [1974] IR 284, the duty of vindication extends to unenumerated rights of equivalent constitutional weight. Twenty years of non-evaluation constitutes twenty years of continuous breach.</p>
-  <p>Article 28.4.1 holds the Government collectively responsible to the Dáil for all executive action. This provision is not satisfied by the formal appearance of engagement across six departments: it requires that the collective executive function. Where six departments simultaneously acknowledge a statutory submission and produce no determination, collective executive responsibility is being performed rather than discharged.</p>
-  <p>Order 84 RSC provides the operative domestic remedy pathway. Mandamus compels performance of a legal duty refused or neglected; certiorari quashes an unreasonable or insufficiently reasoned decision; declaratory relief establishes rights on the record. The frivolous-and-vexatious determination issued simultaneously by both Houses on September 10th, 2025 against a 226-page formal complaint — applying a persuasion standard nowhere found in Section 8(3) of the Ethics in Public Office Act 1995 — is ultra vires, void, and liable to certiorari.</p>
+  <p>Article 40.3.1 of <em>Bunreacht na hÉireann</em> guarantees to defend and vindicate the personal rights of the citizen. The right to have a lawfully submitted dual-use corpus evaluated by the designated competent authority — a right with a statutory foundation in EU Regulation 2021/821, incorporated into Irish law — is precisely the kind of right Article 40.3 was designed to protect. Twenty years of non-evaluation constitutes twenty years of continuous breach.</p>
+  <p>Article 28.4.1 holds the Government collectively responsible to the Dáil for all executive action. Where six departments simultaneously acknowledge a statutory submission and produce no determination, collective executive responsibility is being performed rather than discharged. The distinction is constitutional, not merely rhetorical.</p>
+  <p>Order 84 RSC provides the operative domestic remedy pathway. Mandamus compels performance of a legal duty refused or neglected; certiorari quashes an unreasonable or insufficiently reasoned decision; declaratory relief establishes rights without requiring the State to act in a particular way. All three remedies are available on this record.</p>
 
   <h3>Case Law — Operative Authorities</h3>
-  <p><em>Meadows v Minister for Justice</em> [2010] 2 IR 701: adequate reasons are required for administrative decisions; their absence is independently reviewable. The McEntee foreclosure relies on conclusions formally contested and never defended. No adequate reasons were provided.</p>
-  <p><em>O'Keeffe v An Bord Pleanála</em> [1993] 1 IR 39: a decision may be struck down where no reasonable decision-maker could have arrived at it. Three independent grounds are established in the McEntee foreclosure: conflation of generic disciplinary awareness with specific corpus evaluation; reliance on contested, unanswered conclusions; internal incoherence against the Storm Éowyn record. Any one ground is sufficient. All three are present simultaneously.</p>
+  <p><em>Meadows v Minister for Justice</em> [2010] 2 IR 701: adequate reasons are required for administrative decisions; their absence is independently reviewable. The McEntee foreclosure of February 4th, 2026 relies on conclusions formally contested and never defended. No adequate reasons were provided. <em>Meadows</em> applies without further argument.</p>
+  <p><em>O'Keeffe v An Bord Pleanála</em> [1993] 1 IR 39: irrationality — a decision may be struck down where no reasonable decision-maker, applying correct legal principles, could have arrived at it. Three independent grounds are established in the McEntee foreclosure: conflation of generic disciplinary awareness with specific corpus evaluation; reliance on contested, unanswered conclusions; internal incoherence against the Storm Éowyn record. A fourth ground — Foreclosure-by-Proxy — is independently established: the Department of Defence held no CA designation at any material time. Any one ground is sufficient. All four are present simultaneously.</p>
   <p><em>Re Haughey</em> [1971] IR 217 and <em>McDonald v Bord na gCon</em> [1965] IR 217: <em>audi alteram partem</em> binds every body exercising authority over rights and legitimate expectations. Twenty years of Silence Veto constitutes a substantive adverse determination made without procedural discharge of any of these rights.</p>
-  <p><em>Heaney v Ireland</em> [1994] 3 IR 593: the proportionality test applies to executive non-action that forecloses constitutional rights. The three conditions — rational connection to legitimate objective, minimum impairment, proportionality — are not met. No legitimate objective has been articulated.</p>
+  <p><em>Heaney v Ireland</em> [1994] 3 IR 593: the proportionality test applies to executive non-action that forecloses constitutional rights. The three conditions — rational connection to legitimate objective, minimum impairment, proportionality — are not met. No legitimate objective has been articulated. The impairment is total and continuous. No proportionality analysis has been conducted.</p>
   <p><em>Airey v Ireland</em> (Application No. 6289/73): access to justice must be practical and effective, not theoretical. Structural capture of the domestic review mechanism makes domestic access to justice illusory.</p>
 
   <h3>Tort and Civil Liability</h3>
-  <p>The tort of conversion arises where a person exercises dominion over another's property in a manner inconsistent with the owner's rights. The State's retention of 26kg of proprietary OR materials since 2006 — without evaluation, without compensation, without any lawful basis for continued possession — is conversion in its paradigmatic form. Each day of retention without lawful authority compounds the damages accruing.</p>
-  <p>Negligence in the exercise of a public function is established where: a duty of care arises on the assumption of responsibility; that duty is breached by the standard of the reasonable public body; and recoverable damage results. The duty of care arose when the State accepted custody of the corpus. The damage — documented measurable personal harm arising from sustained and systematic institutional rejection, professional isolation, career destruction, destruction of commercialisation opportunity, and economic loss compounding over twenty years — flows directly from the breach.</p>
+  <p>The tort of conversion arises where a person exercises dominion over another's property in a manner inconsistent with the owner's rights. The State's retention of 26kg of proprietary OR materials since 2006 — without evaluation, without compensation, without any lawful basis for continued possession — is conversion in its paradigmatic form. The tort is ongoing. Each day of retention without lawful authority compounds the damages accruing.</p>
+  <p>Negligence in the exercise of a public function is established where: a duty of care arises on the assumption of responsibility; that duty is breached by the standard of the reasonable public body exercising that function; and recoverable damage results. The duty of care arose when the State accepted custody of the corpus. It was breached by the failure to evaluate, the failure to return, and the sustained exercise of dominion without purpose. The damage — documented personal harm arising from sustained and systematic institutional rejection, professional isolation, career destruction, destruction of commercialisation opportunity, and economic loss compounding over twenty years — flows directly from the breach.</p>
 
   <div class="legal-anchor">
     <span class="legal-anchor-label">Legal Anchor — Tort</span>
@@ -716,21 +889,21 @@
       <div class="hypothesis-label">A</div>
       <div class="hypothesis-body">
         <div class="hypothesis-title">Structural Non-Governance</div>
-        <p>The failure is architectural, not intentional. The system is not designed to resolve cross-departmental submissions that engage multiple statutory frameworks simultaneously. The hoop-trick operates because no mechanism exists for the constitutional hoops to remain engaged under accountability pressure. Administrative Amnesia is produced by a system without institutional memory requirements. Designed Forgetting is the emergent property of a records management architecture that treats accumulation without action as compliance. On this reading, no individual actor has acted in bad faith. The constitutional consequence is identical regardless of intent. The remedy is mandamus, damages, and architectural reform.</p>
+        <p>The failure is architectural, not intentional. The system is not designed to resolve cross-departmental submissions that engage multiple statutory frameworks simultaneously. The hoop-trick operates because no mechanism exists for the constitutional hoops to remain engaged under accountability pressure. Administrative Amnesia is produced by a system without institutional memory requirements. Designed Forgetting is the emergent property of a records management architecture that treats accumulation without action as compliance. On this reading, no individual actor has acted in bad faith. The system has simply been doing what systems without feedback mechanisms do. The constitutional consequence is identical regardless of intent. The remedy is mandamus, damages, and architectural reform.</p>
       </div>
     </div>
     <div class="hypothesis">
       <div class="hypothesis-label">B</div>
       <div class="hypothesis-body">
         <div class="hypothesis-title">Misfeasance in Public Office</div>
-        <p>Misfeasance in public office requires: (1) a public officer acting in their public capacity; (2) the exercise of a power, or deliberate failure to exercise a power, in bad faith; and (3) resulting damage to the plaintiff. The record discloses: the 2009 commitment to produce a ministerial report — made in writing, by a named officer, with named witnesses — that was never produced; the simultaneous five-department silence of September 2024; the McEntee foreclosure relying on conclusions the closing officer is presumed to know were formally contested and unanswered; the JCEUA deletion of formally received correspondence without statutory account. Whether any instance meets the bad faith threshold is a question for the court. What this Remonstrance records is that each instance, on its face, requires examination against that threshold.</p>
+        <p>Misfeasance in public office requires: (1) a public officer acting in their public capacity; (2) the exercise of a power, or deliberate failure to exercise a power, in bad faith; and (3) resulting damage to the plaintiff. The record discloses the following instances that require examination against this standard: the 2009 commitment to produce a ministerial report — made in writing, by a named officer, with named witnesses — that was never produced and has never been accounted for; the simultaneous five-department silence of September 2024 following a formal joint ministerial letter naming specific EU regulatory obligations; the McEntee foreclosure of February 4th, 2026 relying on conclusions the closing officer is presumed to know were formally contested and unanswered; the JCEUA deletion of formally received correspondence in October 2025 without statutory account. Whether any of these instances meets the bad faith threshold is a question for the court. What this Remonstrance records is that each instance, on its face, requires examination against that threshold.</p>
       </div>
     </div>
     <div class="hypothesis">
       <div class="hypothesis-label">C</div>
       <div class="hypothesis-body">
         <div class="hypothesis-title">Epistemic Failure</div>
-        <p>Not structural architecture, not bad faith, but institutional reasoning so deficient that it constitutes a category of failure in its own right. Mumford's Paleotechnic analysis applies: institutions measuring progress by procedural motion — by acknowledgements issued, by reference numbers generated — while remaining inert to the meaning of any of it. An OEP that thanks a twenty-year correspondence for 'raising awareness' may simply not know what it does not know. On this reading, the breach is epistemic: the institutions were not equipped to evaluate what was placed before them, and rather than acknowledge the gap, they performed the appearance of evaluation. This is the most charitable reading. It does not diminish the legal consequences. It only changes their character — from misfeasance to negligence, from bad faith to incompetence. Both are justiciable. The remedy differs in quantum, not in kind.</p>
+        <p>The record also supports a third, simpler reading: not structural architecture, not bad faith, but institutional reasoning so deficient that it constitutes a category of failure in its own right. Mumford's Paleotechnic analysis applies: institutions measuring progress by procedural motion — by acknowledgements issued, by reference numbers generated, by the length of adequacy conclusions produced — while remaining inert to the meaning of any of it. A defence committee that cannot recognise Operations Research as foundational to military strategy demonstrates a knowledge gap so basic it constitutes institutional failure. An OEP that thanks a twenty-year correspondence for 'raising awareness' may simply not know what it does not know. On this reading, the breach is epistemic: the institutions were not equipped to evaluate what was placed before them, and rather than acknowledge the gap, they performed the appearance of evaluation. This is the most charitable reading. It does not diminish the legal consequences. It only changes their character — from misfeasance to negligence, from bad faith to incompetence. Both are justiciable. The remedy differs in quantum, not in kind.</p>
       </div>
     </div>
   </div>
@@ -749,15 +922,15 @@
   <div class="remedy-level">
     <div class="remedy-level-header">Level One — High Court Judicial Review and Mandamus</div>
     <div class="remedy-level-body">
-      <p>Mandamus at three levels. First: the Clerks of the Houses of the Oireachtas — compelling submission of formal complaints into the official parliamentary record. The ultra vires Section 8(3) determination of September 10th, 2025 is directly reviewable. Second: Ministers and the Taoiseach — compelling the Taoiseach and six Ministers to perform statutory duties. The McEntee foreclosure (DOD-MO-01201-2025) is the immediate target: three independent irrationality grounds are established under <em>O'Keeffe</em>; <em>Meadows</em> applies on the reasons failure; the <em>Heaney</em> proportionality test fails on all three limbs. Third: Oireachtas Committees — compelling committees established for democratic accountability to discharge constitutional oversight functions.</p>
-      <p>The mandamus application is not speculative. The reviewable determination exists. Three independent irrationality grounds are identified and documented. The record demonstrates exhaustion of administrative remedies beyond any standard previously required in Irish public law proceedings.</p>
+      <p>Mandamus at three levels. First: the Clerks of the Houses of the Oireachtas — compelling submission of formal complaints into the official parliamentary record and enforcing obligations to process lawfully submitted materials bearing on constitutional governance. The ultra vires Section 8(3) determination of September 10th, 2025 is directly reviewable. Second: Ministers and the Taoiseach — compelling the Taoiseach and named Ministers to perform statutory duties, requiring substantive engagement with and formal determination regarding the OR corpus. The McEntee Foreclosure (DOD-MO-01201-2025) is the immediate primary target: four independent grounds are established — three under <em>O'Keeffe</em> and the Foreclosure-by-Proxy ground independently. <em>Meadows</em> applies on the reasons failure. The <em>Heaney</em> proportionality test fails on all three limbs. The Sfar precondition for DETE mandamus is met: a formal demand has been placed before DETE (DETE-MBURK-01636-2026, September 10th, 2026); refusal or non-response within 21 days creates a fresh, uncontested mandamus cause of action directly against the designated competent authority. Third: Oireachtas Committees — compelling committees established for democratic accountability to discharge constitutional oversight functions. The JCEUA's documented declination and deletion, the Seanad Secretariat's ultra vires refusal, and the JCPP's eighteen-contact zero-reply record each constitute independently reviewable failures. The JCFAT Section 92(4) certiorari window closes October 7th, 2026.</p>
+      <p>The mandamus application is not speculative. The reviewable determination exists. Four independent grounds are identified and documented, with the Sfar precondition satisfied against DETE. The record demonstrates exhaustion of administrative remedies beyond any standard previously required in Irish public law proceedings.</p>
     </div>
   </div>
 
   <div class="remedy-level">
     <div class="remedy-level-header">Level Two — Constitutional Declarations and Damages</div>
     <div class="remedy-level-body">
-      <p>Constitutional declarations sought: that the systematic failure to process submissions bearing on national security, crisis preparedness, and dual-use technologies over twenty years constitutes breach of Articles 28.2, 28.4.1, 40.3, and 15.2.1 of <em>Bunreacht na hÉireann</em>; that ministerial discretion must be exercised, not indefinitely suspended; that collective governmental responsibility requires actual governmental functioning, not its performance.</p>
+      <p>Constitutional declarations sought: that the systematic failure to process submissions bearing on national security, crisis preparedness, and dual-use technologies over twenty years constitutes breach of Articles 28.2, 28.4.1, 40.3, and 15.2.1 of <em>Bunreacht na hÉireann</em>; that Ministers cannot claim unlimited discretion never to discharge acknowledged statutory duties; that collective governmental responsibility requires actual governmental functioning, not its performance; and that Oireachtas oversight mechanisms must provide substantive engagement, not merely acknowledge receipt.</p>
 
       <span class="damages-head">Compensatory Damages</span>
 
@@ -778,53 +951,22 @@
 
       <div class="damages-item">
         <span class="damages-item-n">Head IV — Personal Harm from Sustained Institutional Rejection</span>
-        <p>Twenty years of documented engagement — in good faith, with complete materials, through every available channel — that produced no determination, no evaluation, and no return of materials, constitutes a sustained course of conduct by the State that has caused measurable personal harm. The claim does not rest on a single adverse decision but on the cumulative weight of a pattern of conduct whose effect has been the systematic denial of recognition, remedy, and recourse to a citizen acting within the law.</p>
+        <p>Documented personal harm arising from sustained and systematic institutional rejection, compounding over twenty years across every mechanism of formal engagement the State provides. The damage is continuous, cumulative, and directly traceable to the sequence of acknowledgements-without-determination documented in Part I.</p>
       </div>
 
       <span class="damages-head">Punitive Damages</span>
-
-      <p>Punitive damages — also known as exemplary damages — are available in Irish law where the defendant's conduct has been particularly reprehensible, or where compensatory damages alone would be insufficient to mark the court's disapproval. The Irish courts have confirmed this jurisdiction in <em>Conway v Irish National Teachers' Organisation</em> [1991] 2 IR 305 and in subsequent constitutional tort cases. Five categories of conduct in this record warrant examination for punitive damages.</p>
-
-      <div class="damages-item">
-        <span class="damages-item-n">Punitive Head I — Breach of International Fiduciary and Dual-Use Governance Obligations</span>
-        <p>EU Regulation 2021/821 is not a domestic administrative standard. It is a binding instrument of EU law, enforceable at the level of the CJEU, carrying Ireland's international reputation as a Member State, and directly relevant to the EU's capacity to regulate the transfer of strategically significant technology across borders. A twenty zero-determination record under that instrument — maintained through four transposition cycles, two Presidency terms, and 46 open infringement cases — is not a regulatory oversight. It is a sustained and documented failure of Ireland's international legal obligations, the consequences of which extend to every EU counterpart authority that relies on Ireland's competent authority function being operative.</p>
-      </div>
-
-      <div class="damages-item">
-        <span class="damages-item-n">Punitive Head II — Incoherent and Internally Contradictory Security Measures</span>
-        <p>The OEP maintained two mutually exclusive positions on OR across sixteen years — outside its remit in 2009, already integrated in 2025 — and the McEntee foreclosure selected the 2025 position as dispositive without acknowledging the contradiction. A public body responsible for national emergency planning that cannot maintain a coherent position on whether the discipline foundational to emergency logistics falls within its remit — and whose incoherence has the documented effect of leaving the State operationally unprepared during Storm Éowyn while the solution sat unassessed in a government file — has not merely been negligent. It has been negligent in a domain where the consequences are borne by the public in terms of emergency response failures, resource misallocation, and preventable harm.</p>
-      </div>
-
-      <div class="damages-item">
-        <span class="damages-item-n">Punitive Head III — Breach of the State's Own Security Governance Standards</span>
-        <p>The corpus submitted to Irish authorities since 2006 carries documented dual-use characteristics under EU Regulation 2021/821. The State's failure to evaluate it is a failure of the security governance framework that the State itself has enacted and is obliged to operate. A state that enacts dual-use controls, designates a competent authority, and then allows that authority to remain dormant for twenty years on a submitted corpus with national security applications has created a structural gap in its own security architecture — a gap that, on this record, has already had operational consequences (Storm Éowyn; COVID-19 preparedness; cross-border emergency coordination).</p>
-      </div>
-
-      <div class="damages-item">
-        <span class="damages-item-n">Punitive Head IV — The Ultra Vires Section 8(3) Determination</span>
-        <p>The simultaneous issuance of frivolous-and-vexatious determinations by both Houses of the Oireachtas on September 10th, 2025, against a 226-page formal complaint, applying a persuasion standard nowhere found in the statute, without affording the complainant any opportunity to be heard — is a paradigm case for punitive damages. It is the exercise of a statutory power for a purpose the statute does not authorise, in a manner that causes direct reputational harm to the person whose submission is characterised, and that forecloses the parliamentary channel that the Ethics in Public Office Act 1995 was designed to keep open.</p>
-      </div>
-
-      <div class="damages-item">
-        <span class="damages-item-n">Punitive Head V — The Democratic Harm</span>
-        <p>The record documents not only a wrong done to one petitioner but a structural demonstration of what happens when a citizen engages, in good faith and at sustained cost, with every mechanism of democratic governance available to them — and every mechanism fails, not by accident but by design. The public interest dimension of punitive damages is not incidental: it is the reason the jurisdiction exists. A court award of punitive damages in this case would signal to every organ of the State that the systematic, multi-channel, multi-year frustration of a citizen's lawful engagement with constitutional processes is not a cost-free strategy.</p>
-      </div>
-
-      <div class="callout gold">
-        <span class="callout-label">Protective Costs</span>
-        <p>The public interest dimension of this challenge is established beyond reasonable doubt. Costs should not be used as a barrier to this proceeding. Costs follow breach.</p>
-      </div>
+      <p>Available under <em>Conway v Irish National Teachers' Organisation</em> [1991] 2 IR 305 where conduct is particularly reprehensible. Six categories of conduct in this record warrant examination: breach of international fiduciary and dual-use governance obligations; incoherent and internally contradictory security measures (the three-position OEP contradiction); breach of the State's own security governance standards; the ultra vires Section 8(3) determination; the democratic harm from twenty years of structured non-engagement with every mechanism of democratic governance available; and operational regulatory failure with compounding public cost — the EirGrid benchmarking question, the transport-climate contradiction, the COVID-19 preparedness gap.</p>
     </div>
   </div>
 
   <div class="remedy-level">
     <div class="remedy-level-header">Level Three — European Parallel Track</div>
     <div class="remedy-level-body">
-      <p>The European parallel track is activated. The record has been transmitted to: PETI; the European Ombudsman under Article 228 TFEU; Commissioner McGrath's office (Democracy, Justice, Rule of Law); Commissioner Šefčovič's office (Interinstitutional Relations and Transparency); Commissioner Lahbib's office (Crisis Management); the registry of the Court of Justice of the EU; CEPS (Brussels); DGRIS (Paris).</p>
-      <p>EU grounds: breach of Regulation 2021/821; violation of Articles 41 and 47 CFR; breach of Articles 2 and 4(3) TEU. Ireland assumes the Council Presidency on July 1st, 2026. Minister Byrne told the Seanad Select Committee on February 17th, 2026 that 'a strong transposition record and a reduced infringement caseload form part of Ireland's credibility as an incoming Presidency.' The non-determination is directly inconsistent with that stated standard.</p>
+      <p>The European parallel track is activated. The record has been transmitted to: PETI (European Parliament Committee on Petitions, Article 227 TFEU, active); the European Ombudsman under Article 228 TFEU (OMB-260331-CSD014, active); Commissioner McGrath's office (Democracy, Justice, Rule of Law — five contacts, zero responses); Commissioner Šefčovič's office (Trade and Economic Security); Commissioner Lahbib's office (Crisis Management); the registry of the Court of Justice of the EU; DG Competitiveness and Trade, General Secretariat of the Council (formal submissions April 22nd and April 24th, 2026); CEPS (Brussels); DGRIS (France, April 2026).</p>
+      <p>EU grounds: breach of Regulation 2021/821 (competent authority obligation, twenty years unperformed); violation of Articles 41 and 47 CFR; breach of Articles 2 and 4(3) TEU. Ireland holds the Council Presidency from July 1st, 2026. The Commission's evaluation of Regulation 2021/821 opened September 10th, 2026.</p>
       <div class="callout">
         <span class="callout-label">Presidency Paradox</span>
-        <p>Infringement proceedings are available. CJEU parallel filing is in preparation. Ireland projecting EU regulatory leadership while holding a twenty-year competent authority vacancy is a structural conflict of interest that will be visible in every forum operating after July 1st, 2026.</p>
+        <p>Infringement proceedings are available. CJEU parallel filing is in preparation. Ireland projecting EU regulatory leadership while holding a twenty-year competent authority vacancy is a structural conflict of interest visible in every forum operating during the Presidency term.</p>
       </div>
     </div>
   </div>
@@ -832,7 +974,7 @@
   <div class="remedy-level">
     <div class="remedy-level-header">Level Four — Criminal Law Dimension</div>
     <div class="remedy-level-body">
-      <p>This Tairiscint does not allege criminal conduct. It places the following on the record, without characterisation, for the attention of any authority with jurisdiction: the deliberate non-production of a formally committed ministerial report (2009 Irish Aid commitment), over a period of seventeen years, by an officer who subsequently occupied the offices of Taoiseach, Tánaiste, and Taoiseach again; the exercise of dominion over proprietary materials without licence, evaluation, or compensation for twenty years; the simultaneous issuance of frivolous-and-vexatious determinations by both Houses on the same day against the same 226-page complaint, using a legal standard absent from the statute; and the deletion of formally received correspondence by a parliamentary committee without statutory account. Whether any of these constitute criminal offences is a question for the Director of Public Prosecutions.</p>
+      <p>This Tairiscint does not allege criminal conduct. It places the following on the record, without characterisation, for the attention of any authority with jurisdiction: the deliberate non-production of a formally committed ministerial report (2009 Irish Aid commitment), over a period of seventeen years, by an officer who subsequently occupied the offices of Taoiseach, Tánaiste, and Taoiseach again; the exercise of dominion over proprietary materials without licence, evaluation, or compensation for twenty years; the simultaneous issuance of frivolous-and-vexatious determinations by both Houses on the same day against the same 226-page complaint, using a legal standard absent from the statute; and the deletion of formally received correspondence by a parliamentary committee without statutory account. Whether any of these constitute criminal offences — under the Criminal Justice (Corruption Offences) Act 2018, the Criminal Law Act 1997 (misconduct in public office), or otherwise — is a question for the Director of Public Prosecutions.</p>
       <div class="legal-anchor">
         <span class="legal-anchor-label">Legal Anchor</span>
         <p>Criminal Justice (Corruption Offences) Act 2018; Criminal Law Act 1997; Ethics in Public Office Act 1995 §8(3); Mífheidhmiú oifige — wrongful exercise of lawful authority.</p>
@@ -967,6 +1109,11 @@
 
   <p>The following register consolidates every legal instrument, constitutional provision, domestic statute, case authority, ethical obligation, and corpus structural term operative in the Meinhardt record. Each instrument is mapped to the Charter Article that deploys it. No instrument in this register is cited decoratively.</p>
 
+  <div class="legal-anchor">
+    <span class="legal-anchor-label">Machine-Readable Companion</span>
+    <p>Every structural term in Tier VII — Nullification Loop, Foreclosure-by-Proxy, Structural Displacement, Ontic Collapse — is formalised as an OWL 2 DL class in the <a href="fsd-ontology.html">FSD-Ontology-2026 reference sheet</a>, with SWRL rules encoding the loop-condition thresholds (§10B) and a SKOS lexicon aligned to LKIF, ELI, and SEMIC CPV. See <code>fsd:ProhibitedPractice</code>, <code>fsd:StructuralCondition</code>, and <code>fsd:NullificationLoop</code>.</p>
+  </div>
+
   <div class="table-wrap">
     <table>
       <thead>
@@ -1064,7 +1211,7 @@
           <td>Rules of the Superior Courts</td>
           <td>Judicial review; mandamus; certiorari; protective costs.</td>
           <td class="td-charter">Arts. II, IV, IX</td>
-          <td>Mandamus is the operative domestic remedy. Three irrationality grounds identified in the McEntee foreclosure.</td>
+          <td>Mandamus is the operative domestic remedy. Four independent grounds identified in the McEntee foreclosure, including Foreclosure-by-Proxy.</td>
         </tr>
         <tr>
           <td class="td-instrument">Ethics in Public Office Act 1995 §8(3)</td>
@@ -1072,6 +1219,13 @@
           <td>Clerk determines if complaint is sustainable. Frivolous-and-vexatious determination requires engagement with the complaint's substance.</td>
           <td class="td-charter">Art. II</td>
           <td>Simultaneous frivolous-and-vexatious determinations issued by both Houses on September 10th, 2025 against a 226-page complaint, using a persuasion standard absent from the statute.</td>
+        </tr>
+        <tr>
+          <td class="td-instrument">Control of Exports Act 2023</td>
+          <td>Ireland (Statute)</td>
+          <td>Transfers the competent authority designation under Reg. 2021/821. §3: ministerial designation; §§12–13: order-making and case-specific determination powers.</td>
+          <td class="td-charter">Arts. III, IV</td>
+          <td>DFA→DETE transfer, August 22nd, 2024, executed without audit or discharge of the accumulated obligation.</td>
         </tr>
         <tr>
           <td class="td-instrument">Public Service Management Act 1997</td>
@@ -1136,7 +1290,7 @@
           <td>Irish Supreme Court</td>
           <td>Irrationality: a decision may be struck down where no reasonable decision-maker could have arrived at it.</td>
           <td class="td-charter">Arts. II, V</td>
-          <td>Three irrationality grounds in the McEntee foreclosure: conflation of generic awareness with specific corpus evaluation; reliance on contested conclusions; internal incoherence against Storm Éowyn record.</td>
+          <td>Four grounds in the McEntee foreclosure: conflation of generic awareness with specific corpus evaluation; reliance on contested conclusions; internal incoherence against Storm Éowyn record; Foreclosure-by-Proxy.</td>
         </tr>
         <tr>
           <td class="td-instrument">Re Haughey [1971] IR 217</td>
@@ -1171,7 +1325,7 @@
           <td>Irish Supreme Court</td>
           <td>Punitive / exemplary damages available where conduct is particularly reprehensible.</td>
           <td class="td-charter">Art. IX</td>
-          <td>Foundation for five punitive damages heads in Part V: dual-use governance breach; incoherent security measures; security governance gap; ultra vires §8(3) determination; democratic harm.</td>
+          <td>Foundation for six punitive damages categories in Part V: dual-use governance breach; incoherent security measures; security governance gap; ultra vires §8(3) determination; democratic harm; operational regulatory failure with compounding public cost.</td>
         </tr>
         <tr class="tier-header"><td colspan="5">Tier VI — Ethical and Statutory Triggers</td></tr>
         <tr>
@@ -1206,152 +1360,145 @@
         <tr>
           <td class="td-instrument">Nullification Loop / Lúba Neamhnithe</td>
           <td>—</td>
-          <td>Closed five-stage administrative system: acknowledgement → deferral → remit displacement → sufficiency assertion → record suppression. Output invariant: no determination.</td>
-          <td class="td-charter">Arts. I–VI</td>
-          <td>Art. 41 CFR; Meadows; Re Haughey; Order 84 RSC</td>
+          <td>Closed five-stage administrative system producing acknowledgement-without-determination, invariant across personnel and government.</td>
+          <td class="td-charter">Arts. I, II, III</td>
+          <td>Operative through six Taoisigh, four governments, and three successive competent authority configurations without change of output.</td>
         </tr>
         <tr>
-          <td class="td-instrument">Silence Veto</td>
+          <td class="td-instrument">Foreclosure-by-Proxy</td>
           <td>—</td>
-          <td>Procedural silence functioning as a substantive adverse decision rendered without procedural discharge of the right to be heard.</td>
-          <td class="td-charter">Arts. I, II, IV</td>
-          <td>Re Haughey; McDonald; Art. 41 CFR; O'Keeffe; Order 84 RSC</td>
-        </tr>
-        <tr>
-          <td class="td-instrument">Phainocracy / Dealraitheachas</td>
-          <td>—</td>
-          <td>Governance through the preservation of appearances. Procedural theatre that mimics action while sustaining the Nullification Loop.</td>
-          <td class="td-charter">Arts. II, VIII</td>
-          <td>Civil Service Code §§3.1, 4.1, 4.4; Art. 41 CFR; Duty of transparency</td>
-        </tr>
-        <tr>
-          <td class="td-instrument">Evasocracy / Séachanachas</td>
-          <td>—</td>
-          <td>The active management of institutional silence to avoid statutory obligations. Governance through systematic non-decision.</td>
-          <td class="td-charter">Arts. II, IV</td>
-          <td>Art. 4(3) TEU; O'Keeffe; Heaney; Memo D §IV</td>
+          <td>A determination issued by a body without the CA standing required to make it, producing the appearance of closure without its legal substance.</td>
+          <td class="td-charter">Art. II</td>
+          <td>The McEntee Foreclosure (DOD-MO-01201-2025): DoD held no CA designation under Regulation 2021/821 at any material time.</td>
         </tr>
         <tr>
           <td class="td-instrument">Jurisdictional Evaporation</td>
           <td>—</td>
-          <td>The structural outcome of simultaneous remit displacement: a matter belonging in principle to every authority and in practice to none.</td>
+          <td>Simultaneous remit displacement by multiple institutions, each holding the matter falls within another body's domain, so that no body ever holds it.</td>
           <td class="td-charter">Art. II</td>
-          <td>O'Keeffe (second irrationality ground); Art. 41 CFR; PSMA 1997 §4</td>
+          <td>Simultaneous five-department silence, June–September 2024, following formal joint ministerial acknowledgement.</td>
         </tr>
         <tr>
-          <td class="td-instrument">Administrative Amnesia</td>
+          <td class="td-instrument">Evasocracy / Séachanachas</td>
           <td>—</td>
-          <td>The Loop's production of institutional forgetfulness across serial non-responses: each new officer encounters the record as if for the first time.</td>
-          <td class="td-charter">Arts. III, IV, VI</td>
-          <td>Art. 41 CFR (right of access to file); Duty to give reasons; Civil Service Code §5.3</td>
+          <td>Governance by the systematic avoidance of decision through jurisdictional alibi and structural interlock.</td>
+          <td class="td-charter">Art. II</td>
+          <td>The hoop-trick: Taoiseach/Tánaiste and OEP/DFA/DoD configurations each separate cleanly under accountability pressure.</td>
         </tr>
         <tr>
-          <td class="td-instrument">The Presidency Paradox</td>
+          <td class="td-instrument">Administrative Amnesia / Designed Forgetting</td>
           <td>—</td>
-          <td>Ireland assumes the EU Council Presidency on 1 July 2026 while the DFA holds a twenty-year zero-determination record under Reg. 2021/821.</td>
-          <td class="td-charter">Arts. IV, VII</td>
-          <td>Arts. 2 and 4(3) TEU; Reg. 2021/821; Art. 41 CFR</td>
+          <td>Institutional forgetfulness whereby each new officer encounters an accumulated record as a first encounter, or the record itself is destroyed.</td>
+          <td class="td-charter">Art. VI</td>
+          <td>OEP's 2025 'raising awareness' letter; JCEUA's deletion of formally received correspondence, October 2025.</td>
         </tr>
         <tr>
-          <td class="td-instrument">Tortious Bureaucracy</td>
+          <td class="td-instrument">Phainocracy / Dealraitheachas</td>
           <td>—</td>
-          <td>Active injury inflicted by absorbing strategic intelligence while obstructing its use. Harm by institutional omission.</td>
-          <td class="td-charter">Art. XI</td>
-          <td>Art. 40.3 Bunreacht; Heaney; McDonald; Memo D §III</td>
+          <td>Governance through the management of appearances rather than the discharge of substantive duty.</td>
+          <td class="td-charter">Art. VIII</td>
+          <td>Communications output substituted for determination across every institutional channel in the record.</td>
         </tr>
       </tbody>
     </table>
   </div>
 
-  <!-- SAISINE -->
+  <!-- SAISINE / ACTIVE REFERENCES TABLE -->
   <div class="part-header">
     <span class="part-label">Saisine</span>
-    <div class="part-title">Jurisdictional Engagement of Supranational Authority</div>
+    <div class="part-title">Active References and Deadlines</div>
   </div>
-
-  <p>The term saisine denotes the formal engagement of a tribunal or authority's jurisdiction: the act by which an institution is rendered seized of a matter and thereby obligated to receive it, examine it, and produce a determination. The saisine does not request. It activates. The authority, once saisi, cannot decline the jurisdictional obligation that attaches on receipt — it may only determine the matter on its merits, or provide a reasoned account of why it cannot.</p>
 
   <div class="table-wrap">
     <table>
       <thead>
         <tr>
-          <th>Authority</th>
-          <th>Instrument / Basis</th>
-          <th>Date of Engagement</th>
-          <th>Matter Placed Before Authority</th>
+          <th>Track</th>
+          <th>Reference</th>
           <th>Status</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td class="td-authority">Irish High Court</td>
-          <td>Order 84 RSC — Judicial Review; Mandamus; Certiorari</td>
-          <td>In preparation</td>
-          <td>(1) McEntee Foreclosure (DOD-MO-01201-2025): three independent irrationality grounds. (2) Ultra vires Section 8(3) determination of 10 September 2025. (3) DFA competent authority vacancy under EU Reg. 2021/821.</td>
-          <td><span class="badge badge-prep">In preparation</span></td>
-        </tr>
-        <tr>
-          <td class="td-authority">European Ombudsman</td>
-          <td>Article 228 TFEU — Maladministration by EU-implementing Member State bodies</td>
-          <td>Active — record transmitted</td>
-          <td>DFA's zero-determination record under EU Reg. 2021/821 across twenty years. JCEUA deletion of formally received correspondence. Absence of statutory account of inapplicability.</td>
+          <td>Irish Ombudsman</td>
+          <td>OMB-260331-CSD014</td>
           <td><span class="badge badge-active">Active</span></td>
         </tr>
         <tr>
-          <td class="td-authority">PETI — EP Committee on Petitions</td>
-          <td>EP Rules of Procedure — Right of Petition under Art. 227 TFEU</td>
-          <td>Active</td>
-          <td>DFA's unperformed competent authority obligation. JCEUA declination and deletion without statutory basis. Absence of EU law compliance determination.</td>
-          <td><span class="badge badge-active">Active</span></td>
+          <td>PETI</td>
+          <td>Art. 227 TFEU</td>
+          <td><span class="badge badge-active">Filed March 2026</span></td>
         </tr>
         <tr>
-          <td class="td-authority">Court of Justice of the EU</td>
-          <td>Art. 267 TFEU (preliminary reference); Art. 258–260 TFEU (infringement); direct action</td>
-          <td>CJEU parallel filing in preparation</td>
-          <td>Breach of EU Reg. 2021/821 competent authority obligation. Violation of Arts. 41 and 47 CFR. Breach of Arts. 2 and 4(3) TEU. Presidency Paradox: Ireland assumes Council Presidency July 1st, 2026 with documented unresolved competent authority vacancy.</td>
+          <td>High Court</td>
+          <td>Order 84 RSC</td>
           <td><span class="badge badge-prep">In preparation</span></td>
         </tr>
         <tr>
-          <td class="td-authority">Commissioner McGrath — Democracy, Justice, Rule of Law</td>
-          <td>Art. 2 TEU; Rule of Law monitoring mechanism; Commissioner mandate</td>
-          <td>Formal notification: 27 November 2025</td>
-          <td>Art. 2 TEU breach characterisation placed on record. Ireland's DFA holds a zero-determination record on a matter directly within the Commissioner's Rule of Law monitoring mandate.</td>
-          <td><span class="badge badge-silent">No response</span></td>
+          <td>EU Ombudsman</td>
+          <td>Art. 228 TFEU</td>
+          <td><span class="badge badge-prep">In preparation</span></td>
         </tr>
         <tr>
-          <td class="td-authority">Commissioner Šefčovič — Interinstitutional Relations and Transparency</td>
-          <td>EU transparency obligations; institutional cooperation mandate</td>
-          <td>Record transmitted</td>
-          <td>DFA's transparency gap: designated publisher of Ireland's EU compliance record while holding zero-determination entry under Reg. 2021/821.</td>
-          <td><span class="badge badge-silent">No response</span></td>
+          <td>CJEU</td>
+          <td>Arts. 263, 265, 267, 259 TFEU</td>
+          <td><span class="badge badge-prep">In preparation</span></td>
         </tr>
         <tr>
-          <td class="td-authority">Commissioner Lahbib — Crisis Management</td>
-          <td>Crisis management mandate; EU emergency preparedness framework</td>
-          <td>Record transmitted</td>
-          <td>OR corpus with documented applications to emergency logistics, civil defence, and disaster risk management. Storm Éowyn (January 2025): technology available and unassessed during operational overload.</td>
-          <td><span class="badge badge-silent">No response</span></td>
+          <td>Commission evaluation</td>
+          <td>Art. 26, Reg. 2021/821</td>
+          <td><span class="badge badge-active">Opened September 10th, 2026</span></td>
         </tr>
         <tr>
-          <td class="td-authority">CEPS — Centre for European Policy Studies</td>
-          <td>Academic and policy engagement; EU governance research</td>
-          <td>Formal transmission: March 2026</td>
-          <td>Full evidentiary record of the Interregnum Nullificans. Structural analysis of EU Member State competent authority vacancy as a governance failure template.</td>
-          <td><span class="badge badge-received">Record received</span></td>
+          <td>DETE formal notice</td>
+          <td>DETE-MBURK-01636-2026</td>
+          <td><span class="badge badge-active">Sent September 10th, 2026</span></td>
         </tr>
         <tr>
-          <td class="td-authority">DGRIS — Direction Générale des Relations Internationales et de la Stratégie (France)</td>
-          <td>Bilateral strategic engagement; dual-use governance; Jan. 2011 DAS meeting on record</td>
-          <td>Record transmitted: March 2026</td>
-          <td>OR corpus with dual-use and national security characteristics. Original French engagement (DAS, January 2011) documented in breach sequence. DGRIS is the successor body.</td>
-          <td><span class="badge badge-received">Record transmitted</span></td>
+          <td>PAC</td>
+          <td>S-2026-0307</td>
+          <td><span class="badge badge-active">Active</span></td>
+        </tr>
+        <tr>
+          <td>Seanad Bill</td>
+          <td>SSCEUST-I-2026-074</td>
+          <td><span class="badge badge-received">Pre-published</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Deadline</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td-instrument">October 7th, 2026</td>
+          <td><strong>JCFAT Section 92(4) certiorari window closes — MOST URGENT</strong></td>
+        </tr>
+        <tr>
+          <td class="td-instrument">October 15th, 2026</td>
+          <td>DETE public consultation on Commission evaluation closes</td>
+        </tr>
+        <tr>
+          <td class="td-instrument">21 days from September 10th, 2026</td>
+          <td>DETE response window on formal notice (Sfar precondition for mandamus)</td>
+        </tr>
+        <tr>
+          <td class="td-instrument">September 10th, 2028</td>
+          <td>Commission evaluation report due</td>
         </tr>
       </tbody>
     </table>
   </div>
 
   <!-- LEGAL REPOSITORY LINK CARD — inserted after Saisine table, before Closing -->
-  <a class="repo-card" href="https://dr-wojak.github.io/legal/" target="_blank" rel="noopener">
+  <a class="repo-card" href="https://dr-bosch.github.io/legal/" target="_blank" rel="noopener">
     <div class="repo-card-flag"></div>
     <div class="repo-card-body">
       <span class="repo-card-label">Statutory · Constitutional · Jurisprudential · Active / Litigation Prep</span>
@@ -1367,11 +1514,13 @@
     <div class="part-title">On the Duty to Reason and Its Constitutional Enforcement</div>
   </div>
 
-  <p>The constitutional order of this State does not require good intentions of its officials. It requires reasoned action. A public officer may act in complete good faith and still violate the Constitution, if the action taken is incapable of rational justification, is arrived at without adequate reasons, or amounts to the performance of a duty rather than its discharge. Conversely, a constitutional breach does not require malice. It requires only that the applicable standard — proportionality, reasons, impartiality, timely determination — has not been met. Whether it has been met is not a question of motive. It is a question of record.</p>
+  <p>The constitutional order of this State does not require good intentions of its officials. It requires reasoned action. The distinction is foundational. A public officer may act in complete good faith and still violate the Constitution, if the action taken is incapable of rational justification, is arrived at without adequate reasons, or amounts to the performance of a duty rather than its discharge. A constitutional breach does not require malice. It requires only that the applicable standard — proportionality, reasons, impartiality, timely determination — has not been met. Whether it has been met is not a question of motive. It is a question of record.</p>
 
-  <p>The duty to reason is the irreducible minimum that Irish constitutional and EU law impose on the exercise of public power. It does not require that every decision be correct, only that every decision be a decision — reasoned, attributable to a named authority, and susceptible to review. The duty to give reasons in <em>Meadows</em>, the irrationality standard in <em>O'Keeffe</em>, and the proportionality requirement in <em>Heaney</em> are each, at root, applications of the same proposition: public power must be exercised through reason, or it is not lawfully exercised at all.</p>
+  <p>The duty to reason is the irreducible minimum that Irish constitutional and EU law impose on the exercise of public power. It is not a counsel of perfection. It does not require that every decision be correct, only that every decision be a decision — reasoned, attributable to a named authority, and susceptible to review. Francis Bacon's demand for magistral order, Locke's insistence that political authority is legitimate only when exercised through reason in service of the governed, and Kant's categorical requirement that any principle underlying official action be capable of universal application — these are not decorative philosophical references. They are the intellectual foundation on which the modern administrative law of this jurisdiction was built. The duty to give reasons in <em>Meadows</em>, the irrationality standard in <em>O'Keeffe</em>, and the proportionality requirement in <em>Heaney</em> are each applications of the same proposition: public power must be exercised through reason, or it is not lawfully exercised at all.</p>
 
-  <p>Article 28.4.1 of <em>Bunreacht na hÉireann</em> holds the Government collectively responsible to the Dáil for all executive action. The record of the Interregnum Nullificans is a twenty-year record of information received and deliberation declined. The duty to reason has not been discharged across any of the three tests — <em>Meadows</em>, <em>O'Keeffe</em>, <em>Heaney</em>.</p>
+  <p>Under <em>Meadows v Minister for Justice</em> [2010] 2 IR 701, the absence of reasons for an administrative decision is independently reviewable. Under <em>O'Keeffe v An Bord Pleanála</em> [1993] 1 IR 39, no reasonable decision-maker could maintain three mutually exclusive positions across a nineteen-year interval and deploy each as a ground for non-evaluation of the same corpus. Under <em>Heaney v Ireland</em> [1994] 3 IR 593, executive non-action that forecloses constitutional rights must be rationally connected to a legitimate objective, must impair rights as little as possible, and must be proportionate. No legitimate objective has been identified. The impairment is total. No proportionality analysis has been conducted. The duty to reason has not been discharged across any of these three tests.</p>
+
+  <p>The courts of this jurisdiction are the constitutional mechanism through which the duty to reason is enforced when the executive and legislature have declined to exercise it. Order 84 RSC provides mandamus, certiorari, and declaratory relief. All three are available. The record in support of each is complete. The administrative remedies have been exhausted beyond any standard previously required. The conditions for leave to apply for judicial review are satisfied. The European parallel track is activated and running concurrently.</p>
 
   <blockquote>
     <p>The duty to reason is not the duty to reach any particular conclusion. It is the duty to reach a conclusion — through a process that is reasoned, attributable, and reviewable. That duty has not been discharged. This Tairiscint is the instrument through which its discharge will be compelled.</p>
@@ -1388,13 +1537,15 @@
 
 <footer class="site-footer">
   <div class="site-footer-inner">
-    <span>The Meinhardt Initiative · March 2026</span>
+    <span>The Meinhardt Initiative · Version 18 · September 2026</span>
     <span>
-      <a href="https://dr-crunch.github.io/nullification-loops/" target="_blank">nullification-loops ↗</a>
+      <a href="https://dr-bosch.github.io/nullification-loops/" target="_blank">nullification-loops ↗</a>
       &nbsp;·&nbsp;
-      <a href="https://github.com/dr-crunch/nullification-loops" target="_blank">GitHub ↗</a>
+      <a href="fsd-ontology.html">fsd:ontology ↗</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/dr-bosch/nullification-loops" target="_blank">GitHub ↗</a>
     </span>
-    <span>Hard Deadline · 1 July 2026</span>
+    <span>Commission Evaluation Opened · 10 September 2026</span>
   </div>
 </footer>
 
