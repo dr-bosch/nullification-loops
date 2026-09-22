@@ -26,9 +26,9 @@ Pris individuellement, chacun de ces modes est défendable sur le plan procédur
 
 Pour le groupe de travail : la boucle de nullification n'est pas une invention irlandaise. Elle sera immédiatement reconnaissable par tout acteur étatique ayant observé une question de gouvernance transversale se dissoudre entre ministères. **C'est le point d'entrée pour la France, la Lettonie, Chypre** — des États qui ne partagent pas la mémoire institutionnelle irlandaise mais qui reconnaîtront sans peine le mécanisme.
 
-https://github.com/dr-crunch/nullification-loops
+https://github.com/dr-bosch/nullification-loops
 
-🇫🇷 Synopsis en Français: [boucles-de-nullification](https://github.com/dr-crunch/nullification-loops/blob/main/boucles-de-nullification.md) 🇬🇷 Σύνοψη στα ελληνικά: [vróchoi-kýrosis](https://github.com/dr-crunch/nullification-loops/blob/main/vro%CC%81choi-ky%CC%81rosis.md) 🇨🇾 Σύνοψη στα κυπριακά ελληνικά: [vróchoi-kýrosis-CY](https://github.com/dr-crunch/nullification-loops/blob/main/vrochoi-kyrosis-CY.md) 🇮🇪 Achoimre as Gaeilge: [lúba-neamhnithe](https://github.com/dr-crunch/nullification-loops/blob/main/lu%CC%81ba-neamhnithe.md) 🇱🇹 Santrauka lietuvių kalba: [anuliavimo-kilpos](https://github.com/dr-crunch/nullification-loops/blob/main/anuliavimo-kilpos.md)
+🇫🇷 Synopsis en Français: [boucles-de-nullification](https://github.com/dr-bosch/nullification-loops/blob/main/boucles-de-nullification.md) 🇬🇷 Σύνοψη στα ελληνικά: [vróchoi-kýrosis](https://github.com/dr-bosch/nullification-loops/blob/main/vro%CC%81choi-ky%CC%81rosis.md) 🇨🇾 Σύνοψη στα κυπριακά ελληνικά: [vróchoi-kýrosis-CY](https://github.com/dr-bosch/nullification-loops/blob/main/vrochoi-kyrosis-CY.md) 🇮🇪 Achoimre as Gaeilge: [lúba-neamhnithe](https://github.com/dr-bosch/nullification-loops/blob/main/lu%CC%81ba-neamhnithe.md) 🇱🇹 Santrauka lietuvių kalba: [anuliavimo-kilpos](https://github.com/dr-bosch/nullification-loops/blob/main/anuliavimo-kilpos.md)
 
 ---
 
