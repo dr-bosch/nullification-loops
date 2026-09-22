@@ -1,4 +1,4 @@
-![nullification-loops](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/scathain-agus-splanc-v3.jpg)
+![nullification-loops](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/scathain-agus-splanc-v3.jpg)
 # nullification-loops
 **Structural Operations Freeze in the Irish Public Petition System: A Mixed Curriculum of Misadministration**  
 **_Scátháin agus Splanc_**: "Mirrors and Flash"  
@@ -17,18 +17,18 @@ From Greek φαινόμενον (phaínō), appearance (to show, to appear)  + �
 See [*Dealraitheachas* and Other Sorts of Conflated Inaction](https://drive.google.com/file/d/1vvsyfoki77NLeoKjKjocgUs_Z1Rj6xuA) for a full definition. *Dealraitheachas* is Irish (GA) for Phainocracy.  
 </details>
 
-A synopsis of this material, including background information, is available [here](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/synopsis.md) —there's also an overview of [major topics](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/major-topics.md).  
+A synopsis of this material, including background information, is available [here](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/synopsis.md) —there's also an overview of [major topics](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/major-topics.md).  
 
-🇫🇷 Synopsis en Français: [commencer-ici](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/boucles-de-nullification.md)   |   Exposé Principal: [Résumé Analytique](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/resume-analytique.md)  
+🇫🇷 Synopsis en Français: [commencer-ici](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/boucles-de-nullification.md)   |   Exposé Principal: [Résumé Analytique](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/resume-analytique.md)  
 
 🇪🇸 Para mantener la coherencia técnica con el expediente preparado para revisión judicial, la traducción al español de la línea de navegación es la siguiente:
 
-Sinopsis en español: [comenzar-aquí](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/bucles-de-nulificacion.md) | [Resumen Ejecutivo](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/resumen-ejecutivo.md)
+Sinopsis en español: [comenzar-aquí](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/bucles-de-nulificacion.md) | [Resumen Ejecutivo](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/resumen-ejecutivo.md)
 
-🇨🇾 Σύνοψη στα κυπριακά ελληνικά: [Θώρει δαμέ](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/vrochoi-kyrosis-CY.md)  
-🇮🇪 Achoimre as Gaeilge: [tosaigh anseo](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/luba-neamhnithe.md)  
-🇱🇹 Santrauka lietuvių kalba: [pradeti cia](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/anuliavimo-kilpos.md)  
-🇬🇷 Σύνοψη στα ελληνικά: [κοίτα εδώ](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/vrochoi-kyrosis.md)  
+🇨🇾 Σύνοψη στα κυπριακά ελληνικά: [Θώρει δαμέ](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/vrochoi-kyrosis-CY.md)  
+🇮🇪 Achoimre as Gaeilge: [tosaigh anseo](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/luba-neamhnithe.md)  
+🇱🇹 Santrauka lietuvių kalba: [pradeti cia](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/anuliavimo-kilpos.md)  
+🇬🇷 Σύνοψη στα ελληνικά: [κοίτα εδώ](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/vrochoi-kyrosis.md)  
 
 This repository documents a sustained pattern of institutional non-engagement with formally submitted Operations Research (O.R.) methodology across Irish government departments from 2006–2026. The core issue is not technology adoption; it is the **State's failure to conclude the administrative process it initiated**.
 
@@ -212,7 +212,7 @@ When the committee specifically charged with oversight of petition mechanisms re
 
 *The Systemic Nullification Loop*  
 
-Web Portal: https://dr-crunch.github.io/nullification-loops/compendium/index.html
+Web Portal: https://dr-bosch.github.io/nullification-loops/compendium/index.html
 
 The correspondence confirms that this is indeed a "complicated problem" characterised by **multiple fissures** that have converged into what is described as a **systemic nullification loop**. The analysis suggests that, because these issues are epistemically linked, they cannot be resolved in isolation, and the petitioner is pursuing **parallel tracks** for a comprehensive resolution.  
 
@@ -224,7 +224,7 @@ The primary fissures identified in the sources include:
 
 • **The Institutional Fissure:** There is a documented breakdown in the **parliamentary petition mechanism**, where multiple Oireachtas committees have declined jurisdiction or maintained total institutional silence. This "Silence Veto" is presented as a category error where the State logic recognises a risk but refuses to direct, temper or match the information.  
 
-• **The European Law and Sovereignty Fissure:** The petitioner argues that Ireland cannot fulfill its obligations as a lead **GDPR regulator** or exercise true data sovereignty for EU citizens without the analytical O.R. tools it has persistently ignored. This fissure is further complicated by the impending **2026 EU Council Presidency**, which the petitioner warns will expose Ireland to **"structural reputational risk"** if these breaches are not resolved. The multilateral, european, EC, EU dimension —especially with respect to key sovereign assignments (critical infrastructure, core resources) and interplay between stakeholders, that system as a whole. For a brief overview of the working model for this aspect of this case, see the [Compendium of Stakeholders](https://github.com/dr-crunch/nullification-loops/blob/main/compendium.md), as covered by synopsis and dossier.  
+• **The European Law and Sovereignty Fissure:** The petitioner argues that Ireland cannot fulfill its obligations as a lead **GDPR regulator** or exercise true data sovereignty for EU citizens without the analytical O.R. tools it has persistently ignored. This fissure is further complicated by the impending **2026 EU Council Presidency**, which the petitioner warns will expose Ireland to **"structural reputational risk"** if these breaches are not resolved. The multilateral, european, EC, EU dimension —especially with respect to key sovereign assignments (critical infrastructure, core resources) and interplay between stakeholders, that system as a whole. For a brief overview of the working model for this aspect of this case, see the [Compendium of Stakeholders](https://github.com/dr-bosch/nullification-loops/blob/main/compendium.md), as covered by synopsis and dossier.  
 
 • **The Personal Accountability Fissure:** The case is personally linked to **Commissioner Michael McGrath**, whose professional background in **Management Information Systems (MIS)** is cited as proof that he possesses the technical literacy to understand the matter. His silence in his current role —which is specifically charged with **Rule of Law compliance**— is framed as a mirror of his silence as a TD in 2020, creating a conflict of interest at the apex of the EU's justice portfolio.  
 
@@ -550,9 +550,9 @@ Statement of Record regarding:
  • Transparency Deficit  
  • Governance Impasse  
  
-[En direct](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/major-topics.md#interregnum-nullificans) _Pièces Jointes: Interregnum Nullificans_
+[En direct](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/major-topics.md#interregnum-nullificans) _Pièces Jointes: Interregnum Nullificans_
 
-[Pièces Jointes](https://github.com/dr-crunch/nullification-loops/tree/main/compendium/pieces-jointes) / Archivos Adjuntos / Attachments
+[Pièces Jointes](https://github.com/dr-bosch/nullification-loops/tree/main/compendium/pieces-jointes) / Archivos Adjuntos / Attachments
 
 See also Annex III of the Formal Complaint:
 
