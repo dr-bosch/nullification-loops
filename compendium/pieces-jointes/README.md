@@ -1,4 +1,4 @@
-![archivos-adjunctos](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/pieces-jointes/archivos-justtificativos-interregnum-nullificans.jpg)
+![archivos-adjunctos](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/pieces-jointes/archivos-justtificativos-interregnum-nullificans.jpg)
 
 # Institutional Accountability and the Strategic Integration of Operations Research (O.R.)
 **_Structural Non-Governance in Ireland_**
@@ -95,22 +95,22 @@ The sources cite the 19-year failure of the Irish State to institutionalize Oper
 
 Despite nearly two decades of engagement and 26kg of research materials submitted, the system has "simulated consideration while engineering forgetting," leaving the technology in a state of institutional limbo
 
-A synopsis of this material, including background information, is available [here](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/synopsis.md) —there's also an overview of [major topics](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/major-topics.md).  
+A synopsis of this material, including background information, is available [here](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/synopsis.md) —there's also an overview of [major topics](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/major-topics.md).  
 
-🇫🇷 Synopsis en Français: [commencer-ici](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/boucles-de-nullification.md)   |   Exposé Principal: [Résumé Analytique](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/resume-analytique.md)  
+🇫🇷 Synopsis en Français: [commencer-ici](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/boucles-de-nullification.md)   |   Exposé Principal: [Résumé Analytique](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/resume-analytique.md)  
 
 🇪🇸 Para mantener la coherencia técnica con el expediente preparado para revisión judicial, la traducción al español de la línea de navegación es la siguiente:
 
-Sinopsis en español: [comenzar-aquí](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/bucles-de-nulificacion.md) | [Resumen Ejecutivo](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/resumen-ejecutivo.md)
+Sinopsis en español: [comenzar-aquí](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/bucles-de-nulificacion.md) | [Resumen Ejecutivo](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/resumen-ejecutivo.md)
 
-🇨🇾 Σύνοψη στα κυπριακά ελληνικά: [Θώρει δαμέ](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/vrochoi-kyrosis-CY.md)  
-🇮🇪 Achoimre as Gaeilge: [tosaigh anseo](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/luba-neamhnithe.md)  
-🇱🇹 Santrauka lietuvių kalba: [pradeti cia](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/anuliavimo-kilpos.md)  
-🇬🇷 Σύνοψη στα ελληνικά: [κοίτα εδώ](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/vrochoi-kyrosis.md)  
+🇨🇾 Σύνοψη στα κυπριακά ελληνικά: [Θώρει δαμέ](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/vrochoi-kyrosis-CY.md)  
+🇮🇪 Achoimre as Gaeilge: [tosaigh anseo](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/luba-neamhnithe.md)  
+🇱🇹 Santrauka lietuvių kalba: [pradeti cia](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/anuliavimo-kilpos.md)  
+🇬🇷 Σύνοψη στα ελληνικά: [κοίτα εδώ](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/vrochoi-kyrosis.md)  
 
 </details>
 
-[Scátháin agus Splanc](https://github.com/dr-crunch/nullification-loops#nullification-loops)
+[Scátháin agus Splanc](https://github.com/dr-bosch/nullification-loops#nullification-loops)
 
 ---
 
@@ -191,41 +191,41 @@ As a necessary response, the next phase of this record involves a High Court pet
 
 ## _Neamhnú Idir-réimnigh_
 
-procedural justice [nullification-loops](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)
+procedural justice [nullification-loops](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)
 
-🇮🇪 **Ceanglas na Ceartais Nós Imeachta** : [ceanglas-ceartas-nós-imeachta](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇫🇷 **L'Exigence de Justice Procédurale** : [exigence-justice-procédurale](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇧🇪 **De Vereiste van Procedurele Rechtvaardigheid** : [vereiste-procedurele-rechtvaardigheid-BE](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇱🇺 **D'Ufuerderung vun der Prozeduraler Gerechtegkeet** : [ufuerderung-prozedural-gerechtegkeet-LU](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇳🇱 **De Vereiste van Procedurele Rechtvaardigheid** : [vereiste-procedurele-rechtvaardigheid-NL](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇮🇪 **Ceanglas na Ceartais Nós Imeachta** : [ceanglas-ceartas-nós-imeachta](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇫🇷 **L'Exigence de Justice Procédurale** : [exigence-justice-procédurale](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇧🇪 **De Vereiste van Procedurele Rechtvaardigheid** : [vereiste-procedurele-rechtvaardigheid-BE](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇱🇺 **D'Ufuerderung vun der Prozeduraler Gerechtegkeet** : [ufuerderung-prozedural-gerechtegkeet-LU](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇳🇱 **De Vereiste van Procedurele Rechtvaardigheid** : [vereiste-procedurele-rechtvaardigheid-NL](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
 
-🇩🇪 **Die Anforderung der Verfahrensgerechtigkeit** : [anforderung-verfahrensgerechtigkeit](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇦🇹 **Die Anforderung der Verfahrensgerechtigkeit** : [anforderung-verfahrensgerechtigkeit-AT](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇵🇱 **Wymóg Sprawiedliwości Proceduralnej** : [wymóg-sprawiedliwość-proceduralna](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇨🇿 **Požadavek Procesní Spravedlnosti** : [požadavek-procesní-spravedlnost](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇸🇰 **Požiadavka Procesnej Spravodlivosti** : [požiadavka-procesná-spravodlivosť](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇭🇺 **Az Eljárási Igazságosság Követelménye** : [eljárási-igazságosság-követelménye](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇩🇪 **Die Anforderung der Verfahrensgerechtigkeit** : [anforderung-verfahrensgerechtigkeit](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇦🇹 **Die Anforderung der Verfahrensgerechtigkeit** : [anforderung-verfahrensgerechtigkeit-AT](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇵🇱 **Wymóg Sprawiedliwości Proceduralnej** : [wymóg-sprawiedliwość-proceduralna](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇨🇿 **Požadavek Procesní Spravedlnosti** : [požadavek-procesní-spravedlnost](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇸🇰 **Požiadavka Procesnej Spravodlivosti** : [požiadavka-procesná-spravodlivosť](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇭🇺 **Az Eljárási Igazságosság Követelménye** : [eljárási-igazságosság-követelménye](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
 
-🇬🇷 **Η Απαίτηση Δικαιοσύνης Διαδικασίας** : [απαίτηση-δικαιοσύνη-διαδικασίας](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇨🇾 **Η Απαίτηση Δικαιοσύνης Διαδικασίας** : [απαίτηση-δικαιοσύνη-διαδικασίας-CY](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇧🇬 **Изискването за Процесуална Справедливост** : [изискване-процесуална-справедливост](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇷🇴 **Cerința Justiției Procedurale** : [cerința-justiție-procedurală](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇭🇷 **Zahtjev za Proceduralnom Pravdom** : [zahtjev-proceduralna-pravda](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇸🇮 **Zahteva po Postopkovni Pravičnosti** : [zahteva-postopkovna-pravičnost](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇪🇪 **Menetlusliku Õigluse Nõue** : [menetluslik-õiglus-nõue](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇱🇻 **Procesuālā Taisnīguma Prasība** : [procesuālā-taisnīguma-prasība](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇱🇹 **Procesinio Teisingumo Reikalavimas** : [procesinio-teisingumo-reikalavimas](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇬🇷 **Η Απαίτηση Δικαιοσύνης Διαδικασίας** : [απαίτηση-δικαιοσύνη-διαδικασίας](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇨🇾 **Η Απαίτηση Δικαιοσύνης Διαδικασίας** : [απαίτηση-δικαιοσύνη-διαδικασίας-CY](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇧🇬 **Изискването за Процесуална Справедливост** : [изискване-процесуална-справедливост](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇷🇴 **Cerința Justiției Procedurale** : [cerința-justiție-procedurală](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇭🇷 **Zahtjev za Proceduralnom Pravdom** : [zahtjev-proceduralna-pravda](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇸🇮 **Zahteva po Postopkovni Pravičnosti** : [zahteva-postopkovna-pravičnost](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇪🇪 **Menetlusliku Õigluse Nõue** : [menetluslik-õiglus-nõue](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇱🇻 **Procesuālā Taisnīguma Prasība** : [procesuālā-taisnīguma-prasība](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇱🇹 **Procesinio Teisingumo Reikalavimas** : [procesinio-teisingumo-reikalavimas](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
 
-🇮🇹 **Il Requisito della Giustizia Procedurale** : [requisito-giustizia-procedurale](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇪🇸 **El Requisito de la Justicia Procesal** : [requisito-justicia-procesal](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇵🇹 **O Requisito da Justiça Processual** : [requisito-justiça-processual-PT](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇲🇹 **Il-Ħtieġa tal-Ġustizzja Proċedurali** : [ħtieġa-ġustizzja-proċedurali](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇫🇮 **Menettelyllisen Oikeudenmukaisuuden Vaatimus** : [menettelyllinen-oikeudenmukaisuus-vaatimus](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇸🇪 **Kravet på Processuell Rättvisa** : [kravet-processuell-rättvisa](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇩🇰 **Kravet om Processuel Retfærdighed** : [kravet-processuel-retfærdighed](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇮🇹 **Il Requisito della Giustizia Procedurale** : [requisito-giustizia-procedurale](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇪🇸 **El Requisito de la Justicia Procesal** : [requisito-justicia-procesal](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇵🇹 **O Requisito da Justiça Processual** : [requisito-justiça-processual-PT](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇲🇹 **Il-Ħtieġa tal-Ġustizzja Proċedurali** : [ħtieġa-ġustizzja-proċedurali](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇫🇮 **Menettelyllisen Oikeudenmukaisuuden Vaatimus** : [menettelyllinen-oikeudenmukaisuus-vaatimus](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇸🇪 **Kravet på Processuell Rättvisa** : [kravet-processuell-rättvisa](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇩🇰 **Kravet om Processuel Retfærdighed** : [kravet-processuel-retfærdighed](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
 
-🇪🇸 **El Requisit de la Justícia Processal** : [requisit-justícia-processal-CAT](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
-🇵🇹 **O Requisito da Justiça Processual** : [requisito-justiça-processual-PT2](https://github.com/dr-crunch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇪🇸 **El Requisit de la Justícia Processal** : [requisit-justícia-processal-CAT](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
+🇵🇹 **O Requisito da Justiça Processual** : [requisito-justiça-processual-PT2](https://github.com/dr-bosch/nullification-loops?tab=readme-ov-file#procedural-justice)  
 
 ---
 ## Documentary Record
@@ -262,7 +262,7 @@ procedural justice [nullification-loops](https://github.com/dr-crunch/nullificat
 
 ---
 
-See also: the [Compendium of Stakeholders](https://github.com/dr-crunch/nullification-loops/blob/main/compendium.md), as covered by the synopsis and dossier.
+See also: the [Compendium of Stakeholders](https://github.com/dr-bosch/nullification-loops/blob/main/compendium.md), as covered by the synopsis and dossier.
 
-[← Back to Nullification Loops Landing Page](https://github.com/dr-crunch/nullification-loops#nullification-loops)
+[← Back to Nullification Loops Landing Page](https://github.com/dr-bosch/nullification-loops#nullification-loops)
 
