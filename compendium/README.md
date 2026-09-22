@@ -1,4 +1,4 @@
-![reception](https://github.com/dr-crunch/nullification-loops/blob/main/compendium/information-reception-vs-political-system-dysfunction.png)
+![reception](https://github.com/dr-bosch/nullification-loops/blob/main/compendium/information-reception-vs-political-system-dysfunction.png)
 
 ## The EU Commission as a Stakeholder: Procedural Loops Now Forming
 
@@ -67,7 +67,7 @@ This was addressed directly to Judge Eugene Regan of the Court of Justice. It aw
 
 https://drive.google.com/drive/u/0/folders/12o4-OPXJ0W5E8pxF9pN-VKUeODagy17g
 
-🇫🇷 Synopsis en Français: [boucles-de-nullification](https://github.com/dr-crunch/nullification-loops#nullification-loops)
+🇫🇷 Synopsis en Français: [boucles-de-nullification](https://github.com/dr-bosch/nullification-loops#nullification-loops)
 🇬🇷 Σύνοψη στα ελληνικά: vróchoi-kýrosis-IE [link]
 🇨🇾 Σύνοψη στα κυπριακά ελληνικά: vróchoi-kýrosis-CY [link]
 🇮🇪 Achoimre as Gaeilge: lúba-neamhnithe-IE [link]
@@ -81,6 +81,6 @@ The absence of substantive response from independent civil-society engagement is
 
 What makes this significant for the Commission as a stakeholder is that civil-society institutions such as CEPS, Brussels-based think-tanks, and the IIEA ordinarily function as informal early-warning nodes for the Commission. If those nodes are also non-responsive, the Commission's own information environment on Irish governance quality is structurally impoverished — and its endorsement of Ireland's Presidency readiness rests on that impoverished foundation.
 
-[Neamhnú Idir-réimnigh](https://github.com/dr-crunch/nullification-loops/tree/main/compendium/pieces-jointes#neamhn%C3%BA-idir-r%C3%A9imnigh)
+[Neamhnú Idir-réimnigh](https://github.com/dr-bosch/nullification-loops/tree/main/compendium/pieces-jointes#neamhn%C3%BA-idir-r%C3%A9imnigh)
 
 [Pièces Jointes](https://github.com/dr-crunch/nullification-loops/tree/main/compendium/pieces-jointes)
