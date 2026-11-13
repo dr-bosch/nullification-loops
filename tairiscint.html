@@ -117,7 +117,7 @@
     font-style: italic;
     font-size: 0.9rem;
     color: rgba(245,240,232,0.35);
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
   }
   .masthead-identifier {
     display: inline-block;
@@ -129,6 +129,47 @@
     border: 1px solid rgba(192,172,193,0.5);
     color: rgba(192,172,193,0.85);
     background: rgba(154,28,28,0.1);
+  }
+
+  /* ── MASTHEAD DEFINITION ── */
+  .masthead-definition {
+    max-width: 520px;
+    margin: 0 0 2rem;
+    padding: 1.1rem 0 0.2rem 1.2rem;
+    border-left: 2px solid var(--deckle-dim);
+  }
+  .masthead-definition-term {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: rgba(192,172,193,0.85);
+    margin-bottom: 0.6rem;
+  }
+  .masthead-definition-ga {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: var(--paper);
+    margin-bottom: 0.9rem;
+  }
+  .masthead-definition-label {
+    display: block;
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.45);
+    margin-bottom: 0.3rem;
+  }
+  .masthead-definition-en {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: rgba(245,240,232,0.7);
   }
 
   /* ── CONTENT WRAPPER ── */
@@ -653,6 +694,12 @@
     <h1>Tairiscint Mheinhart</h1>
     <div class="masthead-subtitle">Constitutional Indictment, Legal Register, Saisine, and Framework for Remedy</div>
     <div class="masthead-irish">Gabháltas, Gléasanna agus Mí-ionracas: Cliseadh na Córa in Éirinn</div>
+    <div class="masthead-definition">
+      <span class="masthead-definition-term">Saisine</span>
+      <p class="masthead-definition-ga" lang="ga">An t-ábhar a chur faoi bhráid an údaráis inniúil chun cinneadh foirmiúil a dhéanamh air.</p>
+      <span class="masthead-definition-label">English sense</span>
+      <p class="masthead-definition-en">The formal placing of a matter before the competent authority for determination.</p>
+    </div>
     <div class="masthead-identifier">Interregnum Nullificans · 2006–2026</div>
   </div>
 </header>
